@@ -1,0 +1,144 @@
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-15T13:21:54.725Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-15T13:22:01.986Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-15T13:22:22.363Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-15T13:22:29.128Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-15T15:15:44.064Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T13:12:35.265Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T13:18:43.167Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","command":{"args":["SCRIPT","LOAD","local windowMs = tonumber(ARGV[2])\nlocal resetOnChange = ARGV[1] == \"1\"\nlocal timeToExpire = redis.call(\"PTTL\", KEYS[1])\nif timeToExpire <= 0 then\nredis.call(\"SET\", KEYS[1], 1, \"PX\", windowMs)\nreturn { 1, windowMs }\nend\nlocal totalHits = redis.call(\"INCR\", KEYS[1])\nif resetOnChange then\nredis.call(\"PEXPIRE\", KEYS[1], windowMs)\ntimeToExpire = windowMs\nend\nreturn { totalHits, timeToExpire }"],"name":"set"},"level":"error","message":"Unhandled Rejection at:","service":"identity-service","timestamp":"2026-04-19T15:46:32.373Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T15:46:40.804Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","command":{"args":["SCRIPT","LOAD","local windowMs = tonumber(ARGV[2])\nlocal resetOnChange = ARGV[1] == \"1\"\nlocal timeToExpire = redis.call(\"PTTL\", KEYS[1])\nif timeToExpire <= 0 then\nredis.call(\"SET\", KEYS[1], 1, \"PX\", windowMs)\nreturn { 1, windowMs }\nend\nlocal totalHits = redis.call(\"INCR\", KEYS[1])\nif resetOnChange then\nredis.call(\"PEXPIRE\", KEYS[1], windowMs)\ntimeToExpire = windowMs\nend\nreturn { totalHits, timeToExpire }"],"name":"set"},"level":"error","message":"Unhandled Rejection at:","service":"identity-service","timestamp":"2026-04-19T15:46:40.816Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T15:56:41.208Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T15:56:41.211Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T15:56:41.215Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T15:56:53.310Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T15:56:53.319Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T15:56:53.320Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T16:02:05.640Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T16:02:05.642Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:02:05.644Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:02:13.079Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T16:02:13.086Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T16:02:13.087Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:02:19.707Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T16:02:19.715Z"}
+{"level":"error","message":"Unhandled Rejection:","promise":{},"reason":"ReplyError: ERR syntax error\n    at parseError (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:179:12)\n    at parseType (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\redis-parser\\lib\\parser.js:302:14)","service":"identity-service","timestamp":"2026-04-19T16:02:19.715Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:09:17.303Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:16:40.580Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-04-19T16:16:40.587Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:16:40.618Z"}
+{"level":"error","message":"Registration failed ----->>>> validateRegistration is not a function","service":"identity-service","stack":"TypeError: validateRegistration is not a function\n    at registerUser (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\src\\controllers\\identity-controller.js:10:23)\n    at Layer.handleRequest (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\index.js:582:12)\n    at next (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\router\\index.js:186:3)","timestamp":"2026-04-19T16:16:40.620Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:20:47.144Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:20:51.724Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-04-19T16:20:51.724Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:20:51.741Z"}
+{"level":"error","message":"Registration failed ----->>>> Assignment to constant variable.","service":"identity-service","stack":"TypeError: Assignment to constant variable.\n    at registerUser (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\src\\controllers\\identity-controller.js:29:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-04-19T16:20:51.814Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:22:15.448Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:22:19.533Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-04-19T16:22:19.534Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:22:19.540Z"}
+{"level":"error","message":"Registration failed ----->>>> next is not a function","service":"identity-service","stack":"TypeError: next is not a function\n    at model.<anonymous> (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\src\\models\\User.js:33:16)\n    at async Kareem.execPre (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\kareem\\index.js:70:24)\n    at async model.$__save (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\mongoose\\lib\\model.js:397:5)\n    at async model.save (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async registerUser (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\src\\controllers\\identity-controller.js:30:5)","timestamp":"2026-04-19T16:22:19.674Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:22:36.957Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:32:41.155Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:32:43.290Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-04-19T16:32:43.291Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:32:43.307Z"}
+{"level":"error","message":"Registration failed ----->>>> next is not a function","service":"identity-service","stack":"TypeError: next is not a function\n    at model.<anonymous> (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\src\\models\\User.js:33:16)\n    at async Kareem.execPre (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\kareem\\index.js:70:24)\n    at async model.$__save (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\mongoose\\lib\\model.js:397:5)\n    at async model.save (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async registerUser (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\identity-service\\src\\controllers\\identity-controller.js:30:5)","timestamp":"2026-04-19T16:32:43.458Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:40:09.241Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:40:23.828Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-04-19T16:40:23.829Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:40:23.838Z"}
+{"buffer":{"data":[105,229,5,119,44,153,170,35,101,220,64,13],"type":"Buffer"},"level":"warn","message":"Registration success ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:40:24.060Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:52:13.681Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-04-19T16:52:13.683Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:52:13.692Z"}
+{"0":"U","1":"s","10":"d","11":"y","12":" ","13":"e","14":"x","15":"i","16":"s","17":"t","18":"s","2":"e","3":"r","4":" ","5":"a","6":"l","7":"r","8":"e","9":"a","level":"warn","message":"Registration failed ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:52:13.712Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:52:33.544Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-04-19T16:52:33.545Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:52:33.547Z"}
+{"buffer":{"data":[105,229,8,81,44,153,170,35,101,220,64,15],"type":"Buffer"},"level":"warn","message":"Registration success ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:52:33.673Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T16:56:11.193Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:56:57.492Z"}
+{"level":"info","message":"Request body: {\"username\":\"kush Shah\",\"email\":\"lavshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-19T16:56:57.492Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:56:57.500Z"}
+{"0":"U","1":"s","10":"d","11":"y","12":" ","13":"e","14":"x","15":"i","16":"s","17":"t","18":"s","2":"e","3":"r","4":" ","5":"a","6":"l","7":"r","8":"e","9":"a","level":"warn","message":"Registration failed ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:56:57.528Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-19T16:57:13.005Z"}
+{"level":"info","message":"Request body: {\"username\":\"lav Shah\",\"email\":\"lavshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-19T16:57:13.005Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:57:13.008Z"}
+{"buffer":{"data":[105,229,9,105,236,224,212,53,31,48,63,184],"type":"Buffer"},"level":"warn","message":"Registration success ----->>>>","service":"identity-service","timestamp":"2026-04-19T16:57:13.150Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-19T19:55:10.207Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:18:36.649Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:20:10.210Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:21:29.295Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:21:29.296Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:22:08.553Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:22:21.452Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:22:21.453Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:22:25.035Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:22:25.035Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:22:26.401Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:22:26.401Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:22:27.756Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:22:27.756Z"}
+{"level":"warn","message":"Rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:22:27.757Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:24:16.718Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:24:16.720Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:24:56.675Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:25:50.084Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:26:30.845Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:27:20.972Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:27:20.972Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:27:23.215Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:27:23.216Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:27:25.578Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:27:25.578Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:27:27.221Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:27:27.221Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:27:27.223Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:30:03.736Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:30:16.446Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:30:16.447Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:30:18.028Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:30:18.029Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:30:19.381Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:30:19.381Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:30:20.807Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:30:20.808Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:30:20.809Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:30:32.213Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:30:36.419Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:30:36.419Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:30:36.423Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:30:40.506Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:30:40.507Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:30:40.508Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:30:41.733Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:30:41.734Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:30:41.736Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:30:43.267Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:30:43.268Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:30:43.270Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:30:56.816Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:31:00.540Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:31:00.540Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:31:00.545Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:31:02.023Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:31:02.023Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:31:02.025Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:31:04.797Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:31:04.797Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:31:04.799Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:31:12.842Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:33:25.199Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:34:45.701Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:34:45.702Z"}
+{"level":"info","message":"GET request to /health","service":"identity-service","timestamp":"2026-04-21T08:34:47.718Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-04-21T08:34:47.719Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-21T08:35:17.861Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-21T08:35:21.763Z"}
+{"level":"info","message":"Request body: {\"username\":\"bho Shah\",\"email\":\"bhoshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-21T08:35:21.764Z"}
+{"level":"info","message":"Registration endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-21T08:35:21.769Z"}
+{"buffer":{"data":[105,231,54,201,95,187,196,70,101,15,44,122],"type":"Buffer"},"level":"warn","message":"Registration success ----->>>>","service":"identity-service","timestamp":"2026-04-21T08:35:21.966Z"}
+{"level":"info","message":"POST request to /api/auth/register","service":"identity-service","timestamp":"2026-04-21T08:35:34.205Z"}
+{"level":"info","message":"Request body: {\"username\":\"ram Shah\",\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-21T08:35:34.205Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-21T08:35:34.207Z"}
