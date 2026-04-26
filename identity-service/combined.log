@@ -319,3 +319,10 @@
 {"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T10:03:23.362Z"}
 {"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T10:03:23.369Z"}
 {"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-26T10:15:45.048Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-26T11:48:51.253Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-26T11:49:15.795Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T11:49:15.796Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T11:49:15.800Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-26T11:49:34.677Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T11:49:34.678Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T11:49:34.679Z"}

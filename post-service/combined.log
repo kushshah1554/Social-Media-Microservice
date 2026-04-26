@@ -198,3 +198,396 @@
 {"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ede309ae773f98f64ef7ca","content":"random content","createdAt":"2026-04-26T10:03:53.111Z","mediaIds":["ids"],"updatedAt":"2026-04-26T10:03:53.111Z","userId":"69e757baf122a76e77b82746"},"service":"Post-service","timestamp":"2026-04-26T10:03:53.139Z"}
 {"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T10:15:44.920Z"}
 {"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T10:15:44.944Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T11:48:55.320Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T11:48:55.339Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T11:50:14.767Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content\",\"mediaIds\":[\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T11:50:14.768Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T11:50:14.768Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69edfbf6df37a954cecd293b","content":"random content","createdAt":"2026-04-26T11:50:14.777Z","mediaIds":["ids"],"updatedAt":"2026-04-26T11:50:14.777Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T11:50:14.790Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T11:50:36.200Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content\",\"mediaIds\":[\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T11:50:36.201Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T11:50:36.201Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69edfc0cdf37a954cecd293c","content":"random content","createdAt":"2026-04-26T11:50:36.202Z","mediaIds":["ids"],"updatedAt":"2026-04-26T11:50:36.202Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T11:50:36.204Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T11:51:43.623Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T11:51:43.624Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T11:51:43.624Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69edfc4fdf37a954cecd293d","content":"random content br RAM","createdAt":"2026-04-26T11:51:43.625Z","mediaIds":["idsRAM","idsRAM2"],"updatedAt":"2026-04-26T11:51:43.625Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T11:51:43.628Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T12:10:06.184Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T12:10:06.217Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T12:12:05.374Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T12:12:05.398Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T12:14:39.453Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T12:14:39.478Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T12:17:59.396Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T12:17:59.422Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T12:18:58.362Z"}
+{"level":"info","message":"Request body: {\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T12:18:58.363Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T12:18:58.363Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T12:18:58.365Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"o","20":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"validation failed ----->>>>","service":"Post-service","timestamp":"2026-04-26T12:18:58.372Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T12:19:29.556Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 2 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T12:19:29.556Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T12:19:29.556Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T12:19:29.558Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee02d136c362c8577c09ed","content":"random 2 content br RAM","createdAt":"2026-04-26T12:19:29.569Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T12:19:29.569Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T12:19:29.587Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T12:19:48.244Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T12:19:48.276Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T12:48:15.485Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T12:48:15.506Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T12:49:42.839Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T12:49:42.861Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T12:51:23.025Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T12:51:23.049Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:00:26.186Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:00:26.210Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:00:34.283Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:00:34.310Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:02:54.600Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:02:54.631Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:11:46.610Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 3 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:11:46.611Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:11:46.613Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:11:46.618Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f1244cbdd2034c1fdec","content":"random 3 content br RAM","createdAt":"2026-04-26T13:11:46.641Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:11:46.641Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:11:46.718Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:11:54.541Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 4 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:11:54.542Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:11:54.542Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:11:54.545Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f1a44cbdd2034c1fded","content":"random 4 content br RAM","createdAt":"2026-04-26T13:11:54.547Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:11:54.547Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:11:54.552Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:11:59.783Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 5 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:11:59.784Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:11:59.784Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:11:59.787Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f1f44cbdd2034c1fdee","content":"random 5 content br RAM","createdAt":"2026-04-26T13:11:59.788Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:11:59.788Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:11:59.791Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:12:05.239Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 6 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:12:05.240Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:12:05.240Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:12:05.242Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f2544cbdd2034c1fdef","content":"random 6 content br RAM","createdAt":"2026-04-26T13:12:05.247Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:12:05.247Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:12:05.250Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:12:11.032Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 7 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:12:11.032Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:12:11.033Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:12:11.037Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f2b44cbdd2034c1fdf0","content":"random 7 content br RAM","createdAt":"2026-04-26T13:12:11.039Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:12:11.039Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:12:11.042Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:12:16.525Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 8 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:12:16.526Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:12:16.526Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:12:16.528Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f3044cbdd2034c1fdf1","content":"random 8 content br RAM","createdAt":"2026-04-26T13:12:16.531Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:12:16.531Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:12:16.533Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:12:21.551Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 9 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:12:21.552Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:12:21.552Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:12:21.553Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f3544cbdd2034c1fdf2","content":"random 9 content br RAM","createdAt":"2026-04-26T13:12:21.554Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:12:21.554Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:12:21.569Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:12:26.332Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 10 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:12:26.333Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:12:26.333Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:12:26.336Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f3a44cbdd2034c1fdf3","content":"random 10 content br RAM","createdAt":"2026-04-26T13:12:26.337Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:12:26.337Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:12:26.343Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:12:30.963Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 11 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:12:30.986Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:12:30.989Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:12:30.990Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f3e44cbdd2034c1fdf4","content":"random 11 content br RAM","createdAt":"2026-04-26T13:12:30.992Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:12:30.992Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:12:30.995Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:12:36.250Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 12 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:12:36.251Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:12:36.251Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:12:36.253Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0f4444cbdd2034c1fdf5","content":"random 12 content br RAM","createdAt":"2026-04-26T13:12:36.254Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:12:36.254Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:12:36.258Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:13:59.703Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:13:59.703Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:13:59.704Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:13:59.706Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:14:15.827Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:14:15.827Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:14:15.828Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:14:15.829Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:14:15.831Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:14:54.781Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:14:54.812Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:14:58.653Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:14:58.654Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:14:58.655Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:14:58.661Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:14:58.675Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:15:03.160Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:15:03.161Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:15:03.162Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:15:03.165Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:15:03.166Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:15:06.143Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:15:06.144Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:15:06.144Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:15:06.146Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:15:06.147Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:15:09.394Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:15:09.394Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:15:09.395Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"Post-service","timestamp":"2026-04-26T13:15:09.396Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:15:13.311Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:15:13.312Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:15:13.313Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"Post-service","timestamp":"2026-04-26T13:15:13.315Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T13:15:31.157Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 12 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T13:15:31.158Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:15:31.158Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:15:31.160Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee0ff3955fa21dd47f569b","content":"random 12 content br RAM","createdAt":"2026-04-26T13:15:31.180Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T13:15:31.180Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T13:15:31.194Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:15:51.993Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:15:52.014Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:16:04.952Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:16:04.953Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:16:04.956Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:16:04.964Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:16:04.966Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:16:09.713Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:16:09.714Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:16:09.715Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:16:09.718Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:16:09.720Z"}
+{"level":"info","message":"GET request to /api/posts/posts","service":"Post-service","timestamp":"2026-04-26T13:16:12.758Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:16:12.759Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:16:12.760Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:16:12.761Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:16:12.762Z"}
+{"level":"info","message":"GET request to /api/posts/posts?page=1&limit=3","service":"Post-service","timestamp":"2026-04-26T13:17:40.194Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:17:40.195Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:17:40.196Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:17:40.198Z"}
+{"level":"info","message":"GET request to /api/posts/posts?page=2&limit=3","service":"Post-service","timestamp":"2026-04-26T13:18:39.901Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:18:39.902Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:18:39.902Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:18:39.904Z"}
+{"level":"info","message":"GET request to /api/posts/posts?page=4&limit=6","service":"Post-service","timestamp":"2026-04-26T13:19:08.256Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:19:08.257Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:19:08.258Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:19:08.261Z"}
+{"level":"info","message":"GET request to /api/posts/posts?page=1&limit=6","service":"Post-service","timestamp":"2026-04-26T13:19:31.780Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:19:31.781Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:19:31.781Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:19:31.784Z"}
+{"level":"info","message":"GET request to /api/posts/posts?page=1&limit=6","service":"Post-service","timestamp":"2026-04-26T13:20:48.801Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:20:48.802Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:20:48.802Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:20:48.804Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:20:48.806Z"}
+{"level":"info","message":"GET request to /api/posts/posts?page=1&limit=6","service":"Post-service","timestamp":"2026-04-26T13:20:55.885Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:20:55.886Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:20:55.886Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:20:55.888Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:20:55.890Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=1&limit=6","service":"Post-service","timestamp":"2026-04-26T13:21:48.393Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:21:48.394Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:21:48.395Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:21:53.455Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:21:53.478Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=1&limit=6","service":"Post-service","timestamp":"2026-04-26T13:21:57.503Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T13:21:57.504Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:21:57.506Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:21:57.514Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T13:21:57.517Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:39:37.028Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:39:37.080Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:46:05.899Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:46:05.927Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:46:18.663Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:46:18.691Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:48:38.123Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:48:38.144Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:49:23.708Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:49:23.742Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T13:50:18.465Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T13:50:18.491Z"}
+{"level":"info","message":"GET request to /api/posts/post/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T13:54:19.957Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T13:54:19.958Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:54:19.960Z"}
+{"level":"info","message":"Getting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:54:19.989Z"}
+{"level":"info","message":"Getting post from database","service":"Post-service","timestamp":"2026-04-26T13:54:20.012Z"}
+{"level":"info","message":"GET request to /api/posts/post/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T13:55:09.896Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T13:55:09.897Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:55:09.898Z"}
+{"level":"info","message":"Getting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:55:09.900Z"}
+{"level":"info","message":"Getting post from cache","service":"Post-service","timestamp":"2026-04-26T13:55:09.902Z"}
+{"level":"info","message":"GET request to /api/posts/post/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T13:55:21.487Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T13:55:21.488Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:55:21.489Z"}
+{"level":"info","message":"Getting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:55:21.491Z"}
+{"level":"info","message":"Getting post from cache","service":"Post-service","timestamp":"2026-04-26T13:55:21.492Z"}
+{"level":"info","message":"GET request to /api/posts/post/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T13:55:23.294Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T13:55:23.295Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:55:23.295Z"}
+{"level":"info","message":"Getting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:55:23.297Z"}
+{"level":"info","message":"Getting post from cache","service":"Post-service","timestamp":"2026-04-26T13:55:23.298Z"}
+{"level":"info","message":"GET request to /api/posts/post/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T13:55:24.933Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T13:55:24.934Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:55:24.935Z"}
+{"level":"info","message":"Getting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:55:24.936Z"}
+{"level":"info","message":"Getting post from cache","service":"Post-service","timestamp":"2026-04-26T13:55:24.938Z"}
+{"level":"info","message":"GET request to /api/posts/post/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T13:55:26.224Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T13:55:26.225Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:55:26.225Z"}
+{"level":"info","message":"Getting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:55:26.227Z"}
+{"level":"info","message":"Getting post from cache","service":"Post-service","timestamp":"2026-04-26T13:55:26.229Z"}
+{"level":"info","message":"GET request to /api/posts/post/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T13:55:30.864Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T13:55:30.865Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T13:55:30.865Z"}
+{"level":"info","message":"Getting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T13:55:30.866Z"}
+{"level":"info","message":"Getting post from cache","service":"Post-service","timestamp":"2026-04-26T13:55:30.869Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:00:30.671Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:00:30.703Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=1&limit=6","service":"Post-service","timestamp":"2026-04-26T15:00:55.466Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:00:55.467Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:00:55.470Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:00:55.476Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=1&limit=6","service":"Post-service","timestamp":"2026-04-26T15:01:00.283Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:01:00.284Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:01:00.285Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:01:00.287Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T15:01:00.289Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:06:11.910Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:06:11.944Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:07:16.063Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:07:16.086Z"}
+{"level":"info","message":"DELETE request to /api/posts/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T15:08:39.270Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T15:08:39.271Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:08:39.273Z"}
+{"level":"info","message":"DELETE request to /api/posts/post/69ee0f3e44cbdd2034c1fdf4","service":"Post-service","timestamp":"2026-04-26T15:09:04.628Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T15:09:04.629Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:09:04.630Z"}
+{"level":"info","message":"Deleting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:09:04.634Z"}
+{"level":"info","message":{"deletedFromCache":0},"service":"Post-service","timestamp":"2026-04-26T15:09:04.636Z"}
+{"level":"info","message":"Deleting post from database","service":"Post-service","timestamp":"2026-04-26T15:09:04.669Z"}
+{"level":"info","message":"GET request to /api/posts/post/69ee0ff3955fa21dd47f569b","service":"Post-service","timestamp":"2026-04-26T15:14:06.569Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T15:14:06.570Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:14:06.571Z"}
+{"level":"info","message":"Getting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:14:06.573Z"}
+{"level":"info","message":"Getting post from database","service":"Post-service","timestamp":"2026-04-26T15:14:06.586Z"}
+{"level":"info","message":"DELETE request to /api/posts/post/69ee0ff3955fa21dd47f569b","service":"Post-service","timestamp":"2026-04-26T15:15:02.613Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T15:15:02.615Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:15:02.615Z"}
+{"level":"info","message":"Deleting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:15:02.617Z"}
+{"level":"info","message":"Post deleted from cache","service":"Post-service","timestamp":"2026-04-26T15:15:02.633Z"}
+{"level":"info","message":{"deletedFromCache":1},"service":"Post-service","timestamp":"2026-04-26T15:15:02.634Z"}
+{"level":"info","message":"Deleting post from database","service":"Post-service","timestamp":"2026-04-26T15:15:02.637Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:26:18.937Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:26:18.966Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:34:46.662Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:34:46.688Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:37:09.677Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:37:09.700Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:38:04.127Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:38:04.152Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:41:55.305Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:41:55.330Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=1&limit=6","service":"Post-service","timestamp":"2026-04-26T15:42:11.722Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:42:11.723Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:42:11.724Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:42:11.750Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T15:42:11.752Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T15:42:51.512Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:42:51.513Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:42:51.513Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:42:51.514Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T15:44:04.661Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 13 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T15:44:04.662Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:44:04.662Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:44:04.663Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee32c48e7b695010ebff01","content":"random 13 content br RAM","createdAt":"2026-04-26T15:44:04.675Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T15:44:04.675Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T15:44:04.681Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T15:44:11.622Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:44:11.622Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:44:11.623Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:44:11.623Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T15:44:11.624Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T15:44:31.286Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T15:44:31.304Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T15:44:37.953Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:44:37.954Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:44:37.954Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:44:37.957Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T15:44:37.958Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T15:44:53.148Z"}
+{"level":"info","message":"Request body: {\"content\":\"random 14 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T15:44:53.148Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:44:53.149Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:44:53.150Z"}
+{"level":"info","message":"Invalidating post cache","service":"Post-service","timestamp":"2026-04-26T15:44:53.168Z"}
+{"level":"info","message":"Invalidated post cache","service":"Post-service","timestamp":"2026-04-26T15:44:53.169Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee32f50e6c43980d4dfa6b","content":"random 14 content br RAM","createdAt":"2026-04-26T15:44:53.162Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T15:44:53.162Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T15:44:53.170Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T15:44:58.530Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:44:58.530Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:44:58.531Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:44:58.532Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T15:45:52.395Z"}
+{"level":"info","message":"Request body: {\"content\":\"kush 15 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T15:45:52.395Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:45:52.396Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:45:52.397Z"}
+{"level":"info","message":"Invalidating post cache","service":"Post-service","timestamp":"2026-04-26T15:45:52.400Z"}
+{"level":"info","message":"Invalidated post cache","service":"Post-service","timestamp":"2026-04-26T15:45:52.403Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee33300e6c43980d4dfa6c","content":"kush 15 content br RAM","createdAt":"2026-04-26T15:45:52.398Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T15:45:52.398Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T15:45:52.403Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T15:45:56.728Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:45:56.729Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:45:56.729Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:45:56.729Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T15:45:58.590Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T15:45:58.591Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T15:45:58.591Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T15:45:58.592Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T15:45:58.592Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T16:06:42.796Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T16:06:42.819Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T16:07:06.599Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T16:07:06.624Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T16:11:33.979Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T16:11:34.002Z"}
+{"level":"info","message":"DELETE request to /api/posts/post/69ee33300e6c43980d4dfa6c","service":"Post-service","timestamp":"2026-04-26T16:12:21.683Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T16:12:21.684Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:12:21.685Z"}
+{"level":"info","message":"Deleting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:12:21.689Z"}
+{"level":"info","message":"Deleting post from database","service":"Post-service","timestamp":"2026-04-26T16:12:21.689Z"}
+{"level":"info","message":{"deletedFromCache":0},"service":"Post-service","timestamp":"2026-04-26T16:12:21.713Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T16:13:40.054Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T16:13:40.054Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:13:40.054Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:13:40.055Z"}
+{"level":"info","message":"DELETE request to /api/posts/post/69ee32f50e6c43980d4dfa6b","service":"Post-service","timestamp":"2026-04-26T16:13:58.253Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T16:13:58.253Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:13:58.253Z"}
+{"level":"info","message":"Deleting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:13:58.254Z"}
+{"level":"info","message":"Deleting post from database","service":"Post-service","timestamp":"2026-04-26T16:13:58.254Z"}
+{"level":"info","message":{"deletedFromCache":0},"service":"Post-service","timestamp":"2026-04-26T16:13:58.257Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T16:14:09.909Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T16:14:09.909Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:14:09.910Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:14:09.910Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T16:14:09.911Z"}
+{"level":"info","message":"POST request to /api/posts/create-post","service":"Post-service","timestamp":"2026-04-26T16:14:56.489Z"}
+{"level":"info","message":"Request body: {\"content\":\"kush 15 content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\",\"ids\"]}","service":"Post-service","timestamp":"2026-04-26T16:14:56.490Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:14:56.490Z"}
+{"level":"info","message":"Post creation endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:14:56.490Z"}
+{"level":"info","message":"Invalidating post cache","service":"Post-service","timestamp":"2026-04-26T16:14:56.515Z"}
+{"level":"info","message":"Invalidated post cache","service":"Post-service","timestamp":"2026-04-26T16:14:56.516Z"}
+{"level":"info","message":"Post created successfully","post":{"__v":0,"_id":"69ee3a006673c9a6c4ae4bb9","content":"kush 15 content br RAM","createdAt":"2026-04-26T16:14:56.504Z","mediaIds":["idsRAM","idsRAM2","ids"],"updatedAt":"2026-04-26T16:14:56.504Z","userId":"69e77267c7aa2daba9f23cec"},"service":"Post-service","timestamp":"2026-04-26T16:14:56.517Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T16:15:05.916Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T16:15:05.916Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:15:05.916Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:15:05.917Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T16:16:45.181Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T16:16:45.203Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T16:18:04.312Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T16:18:04.312Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:18:04.313Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:18:04.316Z"}
+{"level":"info","message":"Getting all posts from cache","service":"Post-service","timestamp":"2026-04-26T16:18:04.317Z"}
+{"level":"info","message":"DELETE request to /api/posts/post/69ee3a006673c9a6c4ae4bb9","service":"Post-service","timestamp":"2026-04-26T16:18:23.280Z"}
+{"level":"info","message":"Request body: {}","service":"Post-service","timestamp":"2026-04-26T16:18:23.280Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:18:23.281Z"}
+{"level":"info","message":"Deleting post endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:18:23.283Z"}
+{"level":"info","message":"Deleting post from database","service":"Post-service","timestamp":"2026-04-26T16:18:23.284Z"}
+{"level":"info","message":"Invalidating post cache","service":"Post-service","timestamp":"2026-04-26T16:18:23.296Z"}
+{"level":"info","message":"Invalidated post cache","service":"Post-service","timestamp":"2026-04-26T16:18:23.297Z"}
+{"level":"info","message":"Invalidated post cache","service":"Post-service","timestamp":"2026-04-26T16:18:23.298Z"}
+{"level":"info","message":"GET request to /api/posts/all-posts?page=&limit=","service":"Post-service","timestamp":"2026-04-26T16:18:28.454Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"Post-service","timestamp":"2026-04-26T16:18:28.454Z"}
+{"level":"info","message":"Authenticating request","service":"Post-service","timestamp":"2026-04-26T16:18:28.455Z"}
+{"level":"info","message":"Getting all posts endpoint hit ----->>>>","service":"Post-service","timestamp":"2026-04-26T16:18:28.455Z"}
+{"level":"info","message":"Post service running on port 3002","service":"Post-service","timestamp":"2026-04-26T16:23:07.260Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post-service","timestamp":"2026-04-26T16:23:07.289Z"}
