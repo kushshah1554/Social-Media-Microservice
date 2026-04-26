@@ -1,0 +1,199 @@
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T10:40:50.515Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T10:40:50.517Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T10:40:50.517Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T10:43:53.448Z"}
+{"level":"info","message":"Request body: {\"username\":\"chahana Shah\",\"email\":\"chahanashah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T10:43:53.450Z"}
+{"level":"error","message":"Proxy error:","service":"API-Gateway","timestamp":"2026-04-21T10:43:53.467Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T10:47:38.469Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T10:47:38.472Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T10:47:38.472Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T10:47:43.413Z"}
+{"level":"info","message":"Request body: {\"username\":\"chahana Shah\",\"email\":\"chahanashah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T10:47:43.414Z"}
+{"level":"error","message":"Proxy error:","service":"API-Gateway","timestamp":"2026-04-21T10:47:43.419Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T10:48:26.958Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T10:48:26.961Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T10:48:26.961Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T10:49:36.127Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T10:49:36.130Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T10:49:36.130Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T10:49:47.721Z"}
+{"level":"info","message":"Request body: {\"username\":\"chahana Shah\",\"email\":\"chahanashah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T10:49:47.721Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Proxy error:","service":"API-Gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1142:49)\n    at afterConnectMultiple (node:net:1723:7)","timestamp":"2026-04-21T10:49:47.728Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T10:50:50.033Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T10:50:50.036Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T10:50:50.036Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T10:50:59.016Z"}
+{"level":"info","message":"Request body: {\"username\":\"chahana Shah\",\"email\":\"chahanashah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T10:50:59.016Z"}
+{"level":"info","message":"Response received from identity service with status: 201","service":"API-Gateway","timestamp":"2026-04-21T10:50:59.252Z"}
+{"level":"info","message":"Response data: {\"type\":\"Buffer\",\"data\":[123,34,115,117,99,99,101,115,115,34,58,116,114,117,101,44,34,109,101,115,115,97,103,101,34,58,34,82,101,103,105,115,116,114,97,116,105,111,110,32,115,117,99,99,101,115,115,34,125]}","service":"API-Gateway","timestamp":"2026-04-21T10:50:59.253Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T11:07:30.471Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T11:07:30.473Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T11:07:30.473Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T11:10:51.042Z"}
+{"level":"info","message":"Request body: {\"username\":\"sarita Shah\",\"email\":\"saritashah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T11:10:51.043Z"}
+{"level":"info","message":"Response received from identity service with status: 400","service":"API-Gateway","timestamp":"2026-04-21T11:10:51.120Z"}
+{"level":"info","message":"Response data: {\"type\":\"Buffer\",\"data\":[123,34,115,117,99,99,101,115,115,34,58,102,97,108,115,101,44,34,109,101,115,115,97,103,101,34,58,34,85,115,101,114,32,97,108,114,101,97,100,121,32,101,120,105,115,116,115,34,125]}","service":"API-Gateway","timestamp":"2026-04-21T11:10:51.120Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T11:11:03.261Z"}
+{"level":"info","message":"Request body: {\"username\":\"new Shah\",\"email\":\"newshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T11:11:03.262Z"}
+{"level":"info","message":"Response received from identity service with status: 201","service":"API-Gateway","timestamp":"2026-04-21T11:11:03.397Z"}
+{"level":"info","message":"Response data: {\"type\":\"Buffer\",\"data\":[123,34,115,117,99,99,101,115,115,34,58,116,114,117,101,44,34,109,101,115,115,97,103,101,34,58,34,82,101,103,105,115,116,114,97,116,105,111,110,32,115,117,99,99,101,115,115,34,44,34,97,99,99,101,115,115,84,111,107,101,110,34,58,34,101,121,74,104,98,71,99,105,79,105,74,73,85,122,73,49,78,105,73,115,73,110,82,53,99,67,73,54,73,107,112,88,86,67,74,57,46,101,121,74,49,99,50,86,121,98,109,70,116,90,83,73,54,73,109,53,108,100,121,66,84,97,71,70,111,73,105,119,105,90,87,49,104,97,87,119,105,79,105,73,50,79,87,85,51,78,87,73,48,78,122,73,49,78,106,107,52,90,106,89,49,90,68,85,50,89,106,73,122,78,87,77,105,76,67,74,112,89,88,81,105,79,106,69,51,78,122,89,51,78,106,107,52,78,106,77,115,73,109,86,52,99,67,73,54,77,84,99,51,78,106,99,51,77,122,81,50,77,51,48,46,79,85,78,117,115,78,118,81,89,54,103,57,83,117,87,57,76,52,81,111,55,103,67,99,101,78,116,77,75,54,48,107,90,121,95,50,66,69,53,114,78,99,115,34,44,34,114,101,102,114,101,115,104,84,111,107,101,110,34,58,34,102,55,57,57,57,52,50,51,52,97,52,99,53,54,49,54,52,51,99,49,51,48,49,100,57,97,54,97,48,101,56,97,100,48,101,101,101,102,100,101,97,55,100,50,52,101,99,51,99,50,97,52,55,50,50,54,50,98,98,49,57,56,53,50,55,101,48,48,53,97,57,100,56,100,48,99,54,100,98,50,34,125]}","service":"API-Gateway","timestamp":"2026-04-21T11:11:03.398Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T11:23:26.972Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T11:23:26.974Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T11:23:26.974Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T11:24:35.120Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T11:24:35.122Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T11:24:35.123Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T11:24:43.593Z"}
+{"level":"info","message":"Request body: {\"username\":\"new1 Shah\",\"email\":\"new1shah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T11:24:43.594Z"}
+{"level":"info","message":"Response received from identity service with status: 201","service":"API-Gateway","timestamp":"2026-04-21T11:24:43.764Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Registration success\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ldzEgU2hhaCIsImVtYWlsIjoiNjllNzVlN2IyNTY5OGY2NWQ1NmIyMzVlIiwiaWF0IjoxNzc2NzcwNjgzLCJleHAiOjE3NzY3NzQyODN9.leLC6chx4TZ4iskeHYwwKgcEJCXnkzVT0n6ABwug5vc\",\"refreshToken\":\"384a8b06a2e1fb76acb7fd118f9357461d4a67d1ebe5b8415a7b22d1ce8cd21f186c09467cecb25f\"}","service":"API-Gateway","timestamp":"2026-04-21T11:24:43.765Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"API-Gateway","timestamp":"2026-04-21T11:25:05.214Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"API-Gateway","timestamp":"2026-04-21T11:25:26.292Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T11:29:26.519Z"}
+{"level":"info","message":"Request body: {\"username\":\"new1 Shah\",\"email\":\"new1shah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T11:29:26.520Z"}
+{"level":"info","message":"Response received from identity service with status: 400","service":"API-Gateway","timestamp":"2026-04-21T11:29:26.545Z"}
+{"level":"info","message":"Response data: {\"success\":false,\"message\":\"User already exists\"}","service":"API-Gateway","timestamp":"2026-04-21T11:29:26.546Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T11:29:44.065Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T11:29:44.068Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T11:29:44.069Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T11:30:16.007Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T11:30:16.010Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T11:30:16.010Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T11:32:07.344Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T11:32:07.347Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T11:32:07.347Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T11:32:25.583Z"}
+{"level":"info","message":"Request body: [object Object]","service":"API-Gateway","timestamp":"2026-04-21T11:32:25.584Z"}
+{"level":"info","message":"Response received from identity service with status: 201","service":"API-Gateway","timestamp":"2026-04-21T11:32:25.725Z"}
+{"level":"info","message":"Response data: {\"type\":\"Buffer\",\"data\":[123,34,115,117,99,99,101,115,115,34,58,116,114,117,101,44,34,109,101,115,115,97,103,101,34,58,34,82,101,103,105,115,116,114,97,116,105,111,110,32,115,117,99,99,101,115,115,34,44,34,97,99,99,101,115,115,84,111,107,101,110,34,58,34,101,121,74,104,98,71,99,105,79,105,74,73,85,122,73,49,78,105,73,115,73,110,82,53,99,67,73,54,73,107,112,88,86,67,74,57,46,101,121,74,49,99,50,86,121,98,109,70,116,90,83,73,54,73,109,53,108,100,122,77,103,85,50,104,104,97,67,73,115,73,109,86,116,89,87,108,115,73,106,111,105,78,106,108,108,78,122,89,119,78,68,107,121,78,84,89,53,79,71,89,50,78,87,81,49,78,109,73,121,77,122,89,119,73,105,119,105,97,87,70,48,73,106,111,120,78,122,99,50,78,122,99,120,77,84,81,49,76,67,74,108,101,72,65,105,79,106,69,51,78,122,89,51,78,122,81,51,78,68,86,57,46,106,79,90,45,122,103,122,87,114,85,99,57,98,86,50,81,80,72,71,49,65,45,118,100,104,79,80,115,109,65,112,80,45,98,107,80,56,52,112,101,51,67,52,34,44,34,114,101,102,114,101,115,104,84,111,107,101,110,34,58,34,52,97,99,50,56,53,98,101,53,51,97,54,100,101,102,57,98,49,53,102,102,98,51,54,57,99,49,53,56,57,102,50,52,100,102,56,48,50,100,53,51,50,49,51,101,52,49,53,56,97,54,99,54,52,53,53,51,49,50,52,49,100,54,49,98,97,50,48,100,48,54,56,49,51,97,100,48,98,101,98,34,125]}","service":"API-Gateway","timestamp":"2026-04-21T11:32:25.726Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T11:33:25.735Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T11:33:25.737Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T11:33:25.738Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T11:33:36.613Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T11:33:36.615Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T11:33:36.615Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T11:36:17.853Z"}
+{"level":"info","message":"Request body: {\"username\":\"new4 Shah\",\"email\":\"new4shah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T11:36:17.855Z"}
+{"level":"info","message":"Response received from identity service with status: 201","service":"API-Gateway","timestamp":"2026-04-21T11:36:18.051Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Registration success\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ldzQgU2hhaCIsImVtYWlsIjoiNjllNzYxMzE3ZDkxZDBjZGYyMWMwM2I1IiwiaWF0IjoxNzc2NzcxMzc4LCJleHAiOjE3NzY3NzQ5Nzh9.1DxjG6brHBEVSGKMKEEbSBD-5zaiO6Q-7N7lu_nELcc\",\"refreshToken\":\"a6ff94b3093cb9865f3cef73d124b22f985ee092f86d83a6cf5404f9b949473cf8d004066d13f554\"}","service":"API-Gateway","timestamp":"2026-04-21T11:36:18.052Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T12:34:32.443Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T12:34:32.450Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T12:34:32.450Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T12:34:44.773Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T12:34:44.775Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T12:34:44.776Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-21T12:49:16.970Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T12:49:16.973Z"}
+{"level":"info","message":"Response received from identity service with status: 400","service":"API-Gateway","timestamp":"2026-04-21T12:49:17.053Z"}
+{"level":"info","message":"Response data: {\"success\":false,\"message\":\"User not found\"}","service":"API-Gateway","timestamp":"2026-04-21T12:49:17.053Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-21T12:49:24.838Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T12:49:24.838Z"}
+{"level":"info","message":"Response received from identity service with status: 400","service":"API-Gateway","timestamp":"2026-04-21T12:49:24.849Z"}
+{"level":"info","message":"Response data: {\"success\":false,\"message\":\"User not found\"}","service":"API-Gateway","timestamp":"2026-04-21T12:49:24.850Z"}
+{"level":"info","message":"POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2026-04-21T12:49:43.571Z"}
+{"level":"info","message":"Request body: {\"username\":\"ram Shah\",\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T12:49:43.571Z"}
+{"level":"info","message":"Response received from identity service with status: 201","service":"API-Gateway","timestamp":"2026-04-21T12:49:43.726Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Registration success\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwiZW1haWwiOiI2OWU3NzI2N2M3YWEyZGFiYTlmMjNjZWMiLCJpYXQiOjE3NzY3NzU3ODMsImV4cCI6MTc3Njc3OTM4M30.v5xJaANQO0DdXenCjbX5MUTm4ohNejtk-1DyQjm3ykk\",\"refreshToken\":\"d14d4ab910f672bf131d1a636d4a82e7d5a96ae301ae8097ba88957216a286cc33b2d12bea234cc7\"}","service":"API-Gateway","timestamp":"2026-04-21T12:49:43.726Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-21T12:49:51.003Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T12:49:51.003Z"}
+{"level":"info","message":"Response received from identity service with status: 400","service":"API-Gateway","timestamp":"2026-04-21T12:49:51.012Z"}
+{"level":"info","message":"Response data: {\"success\":false,\"message\":\"User not found\"}","service":"API-Gateway","timestamp":"2026-04-21T12:49:51.012Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-21T12:50:15.977Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T12:50:15.978Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-21T12:50:16.100Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwiZW1haWwiOiI2OWU3NzI2N2M3YWEyZGFiYTlmMjNjZWMiLCJpYXQiOjE3NzY3NzU4MTYsImV4cCI6MTc3Njc3OTQxNn0.BRyzPdOVNm5Y6SZBdnvzOOWSsGOscEjZISEowDI9aRw\",\"refreshToken\":\"d8210fc644900aae706809a4fbfa8baf57ae2115f84bf6626d6cd9abe7477a84d797d45db2bf34d8\"}","service":"API-Gateway","timestamp":"2026-04-21T12:50:16.100Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-21T14:43:31.202Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T14:43:31.206Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-21T14:43:31.405Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwiZW1haWwiOiI2OWU3NzI2N2M3YWEyZGFiYTlmMjNjZWMiLCJpYXQiOjE3NzY3ODI2MTEsImV4cCI6MTc3Njc4NjIxMX0.EdeEAw_TqZ2i1tlZQfikh_yuyXHUqWZvB4DZatR5fC4\",\"refreshToken\":\"1710fefc4808728981b1e01b3e7b1020456a8c66de037f15b70fbe45664582c3ca33f96cd457adc0\"}","service":"API-Gateway","timestamp":"2026-04-21T14:43:31.406Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-21T14:45:59.283Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T14:45:59.284Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-21T14:45:59.388Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwiZW1haWwiOiI2OWU3NzI2N2M3YWEyZGFiYTlmMjNjZWMiLCJpYXQiOjE3NzY3ODI3NTksImV4cCI6MTc3Njc4NjM1OX0._EO3ceL41MeW1BzlE7Kk5I3swGquUoEgk66VhKoi6O8\",\"refreshToken\":\"e3b000f7d3ae34b9b5e92342eea82a17ed0ef1cfe20b245de9a7a4d26315c952549ba7f92c13ab32\"}","service":"API-Gateway","timestamp":"2026-04-21T14:45:59.388Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-21T14:48:44.961Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T14:48:44.961Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-21T14:48:45.065Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwiZW1haWwiOiI2OWU3NzI2N2M3YWEyZGFiYTlmMjNjZWMiLCJpYXQiOjE3NzY3ODI5MjUsImV4cCI6MTc3Njc4NjUyNX0.D2hWLtGw_WSAgT_anuDbMmpKww6O1vlVZUrdmxAmPmk\",\"refreshToken\":\"99c6613414af0cb73eebaac439cab122a780b311a60f9c1309c7f2dd0834de4c2930b57f8362c31e\"}","service":"API-Gateway","timestamp":"2026-04-21T14:48:45.066Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-21T14:51:23.945Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-21T14:51:23.946Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-21T14:51:24.052Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwiZW1haWwiOiI2OWU3NzI2N2M3YWEyZGFiYTlmMjNjZWMiLCJpYXQiOjE3NzY3ODMwODQsImV4cCI6MTc3Njc4NjY4NH0.VQHwRzgJ6vUjogROBBtwzQDL3NzbAtMp8Yz_4AXUpEc\",\"refreshToken\":\"3eb8ced3661b62302da4f4dab9a0c5c6ee6e86850ce8a7b72d2823e42264ce5a1494a3c26fca1254\"}","service":"API-Gateway","timestamp":"2026-04-21T14:51:24.053Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-21T14:54:54.446Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-21T14:54:54.448Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-21T14:54:54.449Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T07:18:08.589Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T07:18:08.591Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T07:18:08.592Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-26T07:18:52.306Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-26T07:18:52.308Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-26T07:18:52.620Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwiZW1haWwiOiI2OWU3NzI2N2M3YWEyZGFiYTlmMjNjZWMiLCJpYXQiOjE3NzcxODc5MzIsImV4cCI6MTc3NzE5MTUzMn0.WpedGpx1NpKKq4qZ-JYwpl9DP8SgbPxtwYXVe-141cs\",\"refreshToken\":\"b95a75a4f0b198256fe9858988285efb724a8efa3f09630141e3a3b54561fde0d64e6c8bae6da04b\"}","service":"API-Gateway","timestamp":"2026-04-26T07:18:52.621Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T08:16:43.376Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T08:16:43.379Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T08:16:43.380Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T08:23:12.960Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T08:23:12.962Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T08:23:12.962Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T08:23:41.281Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T08:23:41.283Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T08:23:41.283Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T08:40:19.684Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T08:40:19.686Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T08:40:19.686Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T08:42:55.769Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T08:42:55.771Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T08:42:55.771Z"}
+{"level":"info","message":"POST request to /v1/posts/create-post","service":"API-Gateway","timestamp":"2026-04-26T10:03:10.511Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content\",\"mediaIds\":[\"ids\"]}","service":"API-Gateway","timestamp":"2026-04-26T10:03:10.515Z"}
+{"expiredAt":"2026-04-26T08:18:52.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","service":"API-Gateway","stack":"TokenExpiredError: jwt expired\n    at D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at validateToken (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\src\\middleware\\authMiddleware.js:13:7)\n    at Layer.handleRequest (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\index.js:342:13)\n    at D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\index.js:582:12)\n    at next (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\index.js:291:5)\n    at D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\src\\server.js:47:3","timestamp":"2026-04-26T10:03:10.546Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-26T10:03:23.267Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-26T10:03:23.268Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-26T10:03:23.580Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwidXNlcklkIjoiNjllNzcyNjdjN2FhMmRhYmE5ZjIzY2VjIiwiaWF0IjoxNzc3MTk3ODAzLCJleHAiOjE3NzcyMDE0MDN9.4yut3--WAJ1s9TNZJ5b2wfo6CDe4nLU_4zB8mi1hfi0\",\"refreshToken\":\"bc37108a834ea219c938a796a996e860281f5dd05dd53374c06a4b6ef8e0721f59906a9009dafb74\"}","service":"API-Gateway","timestamp":"2026-04-26T10:03:23.581Z"}
+{"level":"info","message":"POST request to /v1/posts/create-post","service":"API-Gateway","timestamp":"2026-04-26T10:03:52.962Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content\",\"mediaIds\":[\"ids\"]}","service":"API-Gateway","timestamp":"2026-04-26T10:03:52.963Z"}
+{"level":"info","message":"Response received from posts service with status: 201","service":"API-Gateway","timestamp":"2026-04-26T10:03:53.148Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Post created successfully\"}","service":"API-Gateway","timestamp":"2026-04-26T10:03:53.148Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T10:06:35.857Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T10:06:35.863Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T10:06:35.864Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T10:15:44.455Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T10:15:44.458Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T10:15:44.459Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T11:48:46.450Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T11:48:46.452Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T11:48:46.452Z"}
+{"level":"info","message":"POST request to /v1/posts/create-post","service":"API-Gateway","timestamp":"2026-04-26T11:49:07.584Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content\",\"mediaIds\":[\"ids\"]}","service":"API-Gateway","timestamp":"2026-04-26T11:49:07.584Z"}
+{"expiredAt":"2026-04-26T11:03:23.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","service":"API-Gateway","stack":"TokenExpiredError: jwt expired\n    at D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at validateToken (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\src\\middleware\\authMiddleware.js:13:7)\n    at Layer.handleRequest (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\index.js:342:13)\n    at D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\index.js:582:12)\n    at next (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\node_modules\\router\\index.js:291:5)\n    at D:\\kush\\Nodejs\\nodeJS part 2\\social media\\api-gateway\\src\\server.js:47:3","timestamp":"2026-04-26T11:49:07.594Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-26T11:49:15.757Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-26T11:49:15.758Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-26T11:49:15.969Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwidXNlcklkIjoiNjllNzcyNjdjN2FhMmRhYmE5ZjIzY2VjIiwiaWF0IjoxNzc3MjA0MTU1LCJleHAiOjE3NzcyMDc3NTV9.qmCv2ladfubKH07kw0cpRLwUaZw4Hh8iCiVyImMFYnI\",\"refreshToken\":\"9caf7d01d0c5034fb14d2c6b0987339087ca2632b89cbefc0e4a6cb59622d38943e3d2a9c4fe3d01\"}","service":"API-Gateway","timestamp":"2026-04-26T11:49:15.970Z"}
+{"level":"info","message":"POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2026-04-26T11:49:34.674Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"API-Gateway","timestamp":"2026-04-26T11:49:34.675Z"}
+{"level":"info","message":"Response received from identity service with status: 200","service":"API-Gateway","timestamp":"2026-04-26T11:49:34.778Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Login success\",\"userId\":\"69e77267c7aa2daba9f23cec\",\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhbSBTaGFoIiwidXNlcklkIjoiNjllNzcyNjdjN2FhMmRhYmE5ZjIzY2VjIiwiaWF0IjoxNzc3MjA0MTc0LCJleHAiOjE3NzcyMDc3NzR9.l8CeAijp1mATcjUdrR_slxHBlfRp7sH0lbkz-BhkvsQ\",\"refreshToken\":\"6542fd8112a50df4d7f0be7bcc46041631ecb9b3c01d8164ffe3d097e23c686ae50b0c7ffcf2b723\"}","service":"API-Gateway","timestamp":"2026-04-26T11:49:34.778Z"}
+{"level":"info","message":"POST request to /v1/posts/create-post","service":"API-Gateway","timestamp":"2026-04-26T11:50:14.737Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content\",\"mediaIds\":[\"ids\"]}","service":"API-Gateway","timestamp":"2026-04-26T11:50:14.737Z"}
+{"level":"info","message":"Response received from posts service with status: 201","service":"API-Gateway","timestamp":"2026-04-26T11:50:14.795Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Post created successfully\"}","service":"API-Gateway","timestamp":"2026-04-26T11:50:14.795Z"}
+{"level":"info","message":"POST request to /v1/posts/create-post","service":"API-Gateway","timestamp":"2026-04-26T11:50:36.197Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content\",\"mediaIds\":[\"ids\"]}","service":"API-Gateway","timestamp":"2026-04-26T11:50:36.197Z"}
+{"level":"info","message":"Response received from posts service with status: 201","service":"API-Gateway","timestamp":"2026-04-26T11:50:36.206Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Post created successfully\"}","service":"API-Gateway","timestamp":"2026-04-26T11:50:36.206Z"}
+{"level":"info","message":"POST request to /v1/posts/create-post","service":"API-Gateway","timestamp":"2026-04-26T11:51:43.621Z"}
+{"level":"info","message":"Request body: {\"content\":\"random content br RAM\",\"mediaIds\":[\"idsRAM\",\"idsRAM2\"]}","service":"API-Gateway","timestamp":"2026-04-26T11:51:43.621Z"}
+{"level":"info","message":"Response received from posts service with status: 201","service":"API-Gateway","timestamp":"2026-04-26T11:51:43.630Z"}
+{"level":"info","message":"Response data: {\"success\":true,\"message\":\"Post created successfully\"}","service":"API-Gateway","timestamp":"2026-04-26T11:51:43.631Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T11:53:18.330Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T11:53:18.333Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T11:53:18.333Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T11:55:51.970Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T11:55:51.973Z"}
+{"level":"info","message":"Posts service running on port http://localhost:3002","service":"API-Gateway","timestamp":"2026-04-26T11:55:51.974Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T11:55:51.974Z"}
+{"level":"info","message":"API Gateway running on port 3000","service":"API-Gateway","timestamp":"2026-04-26T12:02:39.710Z"}
+{"level":"info","message":"Identity service running on port http://localhost:3001","service":"API-Gateway","timestamp":"2026-04-26T12:02:39.712Z"}
+{"level":"info","message":"Posts service running on port http://localhost:3002","service":"API-Gateway","timestamp":"2026-04-26T12:02:39.712Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"API-Gateway","timestamp":"2026-04-26T12:02:39.713Z"}

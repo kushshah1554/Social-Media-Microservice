@@ -61,7 +61,7 @@ const sensitiveRateLimiter = rateLimit({
   handler: (req, res) => {
     logger.warn(`Sensitive rate limit exceeded for IP: ${req.ip}`);
     res.status(429).json({ success: false, message: "Too many requests" });
-  },
+  },//handler for rate limit exceeded
   store: new RedisStore({ sendCommand: (...args) => redisClient.call(...args) }), //redis store for rate limiting 
 });
 
