@@ -1,0 +1,324 @@
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-27T18:14:37.059Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-27T18:14:37.091Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-27T18:14:47.562Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-27T18:14:47.586Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T19:28:36.483Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T19:28:36.495Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T19:28:36.497Z"}
+{"level":"warn","message":"User ID not found in request headers","service":"Media-Service","timestamp":"2026-04-27T19:28:36.498Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T19:32:13.597Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T19:32:13.598Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T19:32:13.599Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T19:32:13.655Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 165059.png","service":"Media-Service","timestamp":"2026-04-27T19:32:13.656Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T19:32:13.658Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"zoievypp9qs6bonk76lc","service":"Media-Service","timestamp":"2026-04-27T19:32:16.796Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777318336/zoievypp9qs6bonk76lc.png"}
+{"0":"z","1":"o","10":"s","11":"6","12":"b","13":"o","14":"n","15":"k","16":"7","17":"6","18":"l","19":"c","2":"i","3":"e","4":"v","5":"y","6":"p","7":"p","8":"9","9":"q","level":"info","message":"Cloudinary upload result: public_id - ","service":"Media-Service","timestamp":"2026-04-27T19:32:16.798Z"}
+{"_message":"Media validation failed","errors":{"publicId":{"kind":"required","message":"Path `publicId` is required.","name":"ValidatorError","path":"publicId","properties":{"message":"Path `publicId` is required.","path":"publicId","type":"required"}}},"level":"error","message":"Error uploading media: Media validation failed: publicId: Path `publicId` is required.","service":"Media-Service","stack":"ValidationError: Media validation failed: publicId: Path `publicId` is required.\n    at model.validate (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\media-service\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async model.$__save (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\media-service\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\media-service\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async uploadMedia (D:\\kush\\Nodejs\\nodeJS part 2\\social media\\media-service\\src\\controllers\\media-controller.js:38:5)","timestamp":"2026-04-27T19:32:16.860Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-27T19:34:19.677Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-27T19:34:19.715Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T19:34:24.386Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T19:34:24.387Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T19:34:24.389Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T19:34:24.399Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 165059.png","service":"Media-Service","timestamp":"2026-04-27T19:34:24.401Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T19:34:24.401Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"hzbjfzp4ltdsvvpspnp9","service":"Media-Service","timestamp":"2026-04-27T19:34:27.186Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777318466/hzbjfzp4ltdsvvpspnp9.png"}
+{"0":"h","1":"z","10":"d","11":"s","12":"v","13":"v","14":"p","15":"s","16":"p","17":"n","18":"p","19":"9","2":"b","3":"j","4":"f","5":"z","6":"p","7":"4","8":"l","9":"t","level":"info","message":"Cloudinary upload result: public_id - ","service":"Media-Service","timestamp":"2026-04-27T19:34:27.188Z"}
+{"__v":0,"_id":"69efba4337b726a7b77504b7","createdAt":"2026-04-27T19:34:27.193Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 165059.png","publicId":"hzbjfzp4ltdsvvpspnp9","service":"Media-Service","timestamp":"2026-04-27T19:34:27.207Z","updatedAt":"2026-04-27T19:34:27.193Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777318466/hzbjfzp4ltdsvvpspnp9.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-27T19:40:10.226Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-27T19:40:10.249Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T19:40:31.401Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T19:40:31.402Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T19:40:31.403Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T19:40:31.419Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (14).png","service":"Media-Service","timestamp":"2026-04-27T19:40:31.420Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T19:40:31.420Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"qn4q9mwvrrkjx7htjsiu","service":"Media-Service","timestamp":"2026-04-27T19:40:35.949Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777318835/qn4q9mwvrrkjx7htjsiu.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"qn4q9mwvrrkjx7htjsiu","service":"Media-Service","timestamp":"2026-04-27T19:40:35.951Z"}
+{"__v":0,"_id":"69efbbb397097fe6222edb33","createdAt":"2026-04-27T19:40:35.958Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (14).png","publicId":"qn4q9mwvrrkjx7htjsiu","service":"Media-Service","timestamp":"2026-04-27T19:40:35.968Z","updatedAt":"2026-04-27T19:40:35.958Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777318835/qn4q9mwvrrkjx7htjsiu.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-27T20:04:05.103Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-27T20:04:05.147Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T20:24:58.142Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T20:24:58.153Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T20:24:58.155Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T20:24:58.192Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (7).png","service":"Media-Service","timestamp":"2026-04-27T20:24:58.194Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T20:24:58.196Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"zgxlmzsuxy5uxezvmdc8","service":"Media-Service","timestamp":"2026-04-27T20:25:02.991Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777321502/zgxlmzsuxy5uxezvmdc8.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"zgxlmzsuxy5uxezvmdc8","service":"Media-Service","timestamp":"2026-04-27T20:25:02.992Z"}
+{"__v":0,"_id":"69efc61f432237eee0ee4d2b","createdAt":"2026-04-27T20:25:03.023Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (7).png","publicId":"zgxlmzsuxy5uxezvmdc8","service":"Media-Service","timestamp":"2026-04-27T20:25:03.057Z","updatedAt":"2026-04-27T20:25:03.023Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777321502/zgxlmzsuxy5uxezvmdc8.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T20:27:06.804Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T20:27:06.805Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T20:27:06.806Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T20:27:06.814Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (7).png","service":"Media-Service","timestamp":"2026-04-27T20:27:06.815Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T20:27:06.815Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"bhf9wntfjwwkpzkbrbqz","service":"Media-Service","timestamp":"2026-04-27T20:27:11.386Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777321630/bhf9wntfjwwkpzkbrbqz.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"bhf9wntfjwwkpzkbrbqz","service":"Media-Service","timestamp":"2026-04-27T20:27:11.387Z"}
+{"__v":0,"_id":"69efc69f432237eee0ee4d2c","createdAt":"2026-04-27T20:27:11.389Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (7).png","publicId":"bhf9wntfjwwkpzkbrbqz","service":"Media-Service","timestamp":"2026-04-27T20:27:11.408Z","updatedAt":"2026-04-27T20:27:11.389Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777321630/bhf9wntfjwwkpzkbrbqz.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T20:28:03.004Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T20:28:03.005Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T20:28:03.006Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T20:28:03.010Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (17).png","service":"Media-Service","timestamp":"2026-04-27T20:28:03.010Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T20:28:03.011Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"qozpgggnkudouu7kdarw","service":"Media-Service","timestamp":"2026-04-27T20:28:06.886Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777321686/qozpgggnkudouu7kdarw.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"qozpgggnkudouu7kdarw","service":"Media-Service","timestamp":"2026-04-27T20:28:06.887Z"}
+{"__v":0,"_id":"69efc6d6432237eee0ee4d2d","createdAt":"2026-04-27T20:28:06.888Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (17).png","publicId":"qozpgggnkudouu7kdarw","service":"Media-Service","timestamp":"2026-04-27T20:28:06.891Z","updatedAt":"2026-04-27T20:28:06.888Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777321686/qozpgggnkudouu7kdarw.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T20:29:02.014Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T20:29:02.015Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T20:29:02.015Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T20:29:02.018Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-26 090332.png","service":"Media-Service","timestamp":"2026-04-27T20:29:02.019Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T20:29:02.019Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"emalse3hbf4t0go04xfi","service":"Media-Service","timestamp":"2026-04-27T20:29:04.855Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777321744/emalse3hbf4t0go04xfi.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"emalse3hbf4t0go04xfi","service":"Media-Service","timestamp":"2026-04-27T20:29:04.856Z"}
+{"__v":0,"_id":"69efc710432237eee0ee4d2e","createdAt":"2026-04-27T20:29:04.856Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-26 090332.png","publicId":"emalse3hbf4t0go04xfi","service":"Media-Service","timestamp":"2026-04-27T20:29:04.860Z","updatedAt":"2026-04-27T20:29:04.856Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777321744/emalse3hbf4t0go04xfi.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T20:39:19.007Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T20:39:19.015Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T20:39:19.017Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T20:39:19.033Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-26 090332.png","service":"Media-Service","timestamp":"2026-04-27T20:39:19.034Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T20:39:19.034Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"r7c5ppny6pjk7ec4lnqi","service":"Media-Service","timestamp":"2026-04-27T20:39:21.958Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777322361/r7c5ppny6pjk7ec4lnqi.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"r7c5ppny6pjk7ec4lnqi","service":"Media-Service","timestamp":"2026-04-27T20:39:21.959Z"}
+{"__v":0,"_id":"69efc979432237eee0ee4d2f","createdAt":"2026-04-27T20:39:21.962Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-26 090332.png","publicId":"r7c5ppny6pjk7ec4lnqi","service":"Media-Service","timestamp":"2026-04-27T20:39:21.972Z","updatedAt":"2026-04-27T20:39:21.962Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777322361/r7c5ppny6pjk7ec4lnqi.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-27T20:44:07.596Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-27T20:44:07.599Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-27T20:44:07.601Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-27T20:44:07.612Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-26 090332.png","service":"Media-Service","timestamp":"2026-04-27T20:44:07.613Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-27T20:44:07.615Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"a9h6xprntexbmaehetax","service":"Media-Service","timestamp":"2026-04-27T20:44:10.412Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777322649/a9h6xprntexbmaehetax.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"a9h6xprntexbmaehetax","service":"Media-Service","timestamp":"2026-04-27T20:44:10.412Z"}
+{"__v":0,"_id":"69efca9a432237eee0ee4d30","createdAt":"2026-04-27T20:44:10.413Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-26 090332.png","publicId":"a9h6xprntexbmaehetax","service":"Media-Service","timestamp":"2026-04-27T20:44:10.419Z","updatedAt":"2026-04-27T20:44:10.413Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777322649/a9h6xprntexbmaehetax.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-27T20:46:08.801Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-27T20:46:08.824Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T08:30:23.700Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T08:30:23.740Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:17:38.446Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T09:17:38.453Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:17:38.455Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T09:17:38.475Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (8).png","service":"Media-Service","timestamp":"2026-04-28T09:17:38.476Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T09:17:38.477Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"u5gjtbkvc7h63r0pbip3","service":"Media-Service","timestamp":"2026-04-28T09:17:43.042Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777367862/u5gjtbkvc7h63r0pbip3.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"u5gjtbkvc7h63r0pbip3","service":"Media-Service","timestamp":"2026-04-28T09:17:43.043Z"}
+{"__v":0,"_id":"69f07b37856c0112c5bb293b","createdAt":"2026-04-28T09:17:43.063Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (8).png","publicId":"u5gjtbkvc7h63r0pbip3","service":"Media-Service","timestamp":"2026-04-28T09:17:43.085Z","updatedAt":"2026-04-28T09:17:43.063Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777367862/u5gjtbkvc7h63r0pbip3.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:17:59.812Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T09:17:59.812Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:17:59.813Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T09:17:59.818Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (8).png","service":"Media-Service","timestamp":"2026-04-28T09:17:59.819Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T09:17:59.819Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"tgav9y57qstxyullfq9s","service":"Media-Service","timestamp":"2026-04-28T09:18:04.189Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777367883/tgav9y57qstxyullfq9s.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"tgav9y57qstxyullfq9s","service":"Media-Service","timestamp":"2026-04-28T09:18:04.190Z"}
+{"__v":0,"_id":"69f07b4c856c0112c5bb293c","createdAt":"2026-04-28T09:18:04.190Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (8).png","publicId":"tgav9y57qstxyullfq9s","service":"Media-Service","timestamp":"2026-04-28T09:18:04.202Z","updatedAt":"2026-04-28T09:18:04.190Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777367883/tgav9y57qstxyullfq9s.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:19:13.842Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T09:19:13.843Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:19:13.843Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T09:19:13.848Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (8).png","service":"Media-Service","timestamp":"2026-04-28T09:19:13.848Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T09:19:13.849Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"euyoon1yxoq8dcfjyi0j","service":"Media-Service","timestamp":"2026-04-28T09:19:18.440Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777367957/euyoon1yxoq8dcfjyi0j.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"euyoon1yxoq8dcfjyi0j","service":"Media-Service","timestamp":"2026-04-28T09:19:18.441Z"}
+{"__v":0,"_id":"69f07b96856c0112c5bb293d","createdAt":"2026-04-28T09:19:18.441Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (8).png","publicId":"euyoon1yxoq8dcfjyi0j","service":"Media-Service","timestamp":"2026-04-28T09:19:18.443Z","updatedAt":"2026-04-28T09:19:18.441Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777367957/euyoon1yxoq8dcfjyi0j.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:19:36.813Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T09:19:36.813Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:19:36.813Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T09:19:36.817Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (8).png","service":"Media-Service","timestamp":"2026-04-28T09:19:36.817Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T09:19:36.817Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"mv6hziiypyucnvicuimz","service":"Media-Service","timestamp":"2026-04-28T09:19:41.145Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777367980/mv6hziiypyucnvicuimz.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"mv6hziiypyucnvicuimz","service":"Media-Service","timestamp":"2026-04-28T09:19:41.146Z"}
+{"__v":0,"_id":"69f07bad856c0112c5bb293e","createdAt":"2026-04-28T09:19:41.147Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (8).png","publicId":"mv6hziiypyucnvicuimz","service":"Media-Service","timestamp":"2026-04-28T09:19:41.148Z","updatedAt":"2026-04-28T09:19:41.147Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777367980/mv6hziiypyucnvicuimz.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:21:25.730Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T09:21:25.730Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:21:25.730Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T09:21:25.736Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (8).png","service":"Media-Service","timestamp":"2026-04-28T09:21:25.736Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T09:21:25.737Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"repodwafsiodkzacuynt","service":"Media-Service","timestamp":"2026-04-28T09:21:30.181Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777368089/repodwafsiodkzacuynt.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"repodwafsiodkzacuynt","service":"Media-Service","timestamp":"2026-04-28T09:21:30.182Z"}
+{"__v":0,"_id":"69f07c1a856c0112c5bb293f","createdAt":"2026-04-28T09:21:30.182Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (8).png","publicId":"repodwafsiodkzacuynt","service":"Media-Service","timestamp":"2026-04-28T09:21:30.185Z","updatedAt":"2026-04-28T09:21:30.182Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777368089/repodwafsiodkzacuynt.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:22:38.518Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T09:22:38.519Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:22:38.519Z"}
+{"error":"Field name missing","level":"error","message":"multer error while uploading file","service":"Media-Service","timestamp":"2026-04-28T09:22:38.521Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:23:18.053Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T09:23:18.053Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:23:18.053Z"}
+{"level":"error","message":"No file uploaded","service":"Media-Service","timestamp":"2026-04-28T09:23:18.055Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:32:07.606Z"}
+{"level":"info","message":"Request body: {}","service":"Media-Service","timestamp":"2026-04-28T09:32:07.606Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:32:07.607Z"}
+{"level":"error","message":"No file uploaded","service":"Media-Service","timestamp":"2026-04-28T09:32:07.608Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T09:34:50.406Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T09:34:50.406Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T09:34:50.407Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T09:34:50.415Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (9).png","service":"Media-Service","timestamp":"2026-04-28T09:34:50.415Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T09:34:50.416Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"pyzg4hlhg0rtddwbnp5x","service":"Media-Service","timestamp":"2026-04-28T09:34:54.614Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777368894/pyzg4hlhg0rtddwbnp5x.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"pyzg4hlhg0rtddwbnp5x","service":"Media-Service","timestamp":"2026-04-28T09:34:54.615Z"}
+{"__v":0,"_id":"69f07f3e856c0112c5bb2940","createdAt":"2026-04-28T09:34:54.619Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (9).png","publicId":"pyzg4hlhg0rtddwbnp5x","service":"Media-Service","timestamp":"2026-04-28T09:34:54.625Z","updatedAt":"2026-04-28T09:34:54.619Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777368894/pyzg4hlhg0rtddwbnp5x.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T11:51:46.351Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T11:51:46.390Z"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-28T11:52:12.807Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T11:52:12.807Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T11:52:12.808Z"}
+{"level":"warn","message":"User ID not found in request headers","service":"Media-Service","timestamp":"2026-04-28T11:52:12.808Z"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-28T11:54:43.810Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T11:54:43.811Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T11:54:43.812Z"}
+{"level":"warn","message":"User ID not found in request headers","service":"Media-Service","timestamp":"2026-04-28T11:54:43.813Z"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-28T11:54:50.548Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T11:54:50.548Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T11:54:50.548Z"}
+{"level":"warn","message":"User ID not found in request headers","service":"Media-Service","timestamp":"2026-04-28T11:54:50.549Z"}
+{"level":"info","message":"GET request to /v1/media/all","service":"Media-Service","timestamp":"2026-04-28T11:55:10.252Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T11:55:10.253Z"}
+{"level":"info","message":"GET request to /v1/media/all","service":"Media-Service","timestamp":"2026-04-28T11:55:34.775Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T11:55:34.776Z"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-28T11:56:39.406Z"}
+{"level":"info","message":"Request body: {}","service":"Media-Service","timestamp":"2026-04-28T11:56:39.407Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T11:56:39.407Z"}
+{"level":"info","message":"Getting all media...","service":"Media-Service","timestamp":"2026-04-28T11:56:39.408Z"}
+{"level":"info","message":"Media retrieved successfully:","service":"Media-Service","timestamp":"2026-04-28T11:56:39.433Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T11:58:47.922Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T11:58:47.923Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T11:58:47.923Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T11:58:47.940Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (5).png","service":"Media-Service","timestamp":"2026-04-28T11:58:47.942Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T11:58:47.942Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"f6itg6ygshvt6ykgebhv","service":"Media-Service","timestamp":"2026-04-28T11:58:52.608Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777377531/f6itg6ygshvt6ykgebhv.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"f6itg6ygshvt6ykgebhv","service":"Media-Service","timestamp":"2026-04-28T11:58:52.609Z"}
+{"__v":0,"_id":"69f0a0fcdcf6423e8e3ed259","createdAt":"2026-04-28T11:58:52.616Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (5).png","publicId":"f6itg6ygshvt6ykgebhv","service":"Media-Service","timestamp":"2026-04-28T11:58:52.626Z","updatedAt":"2026-04-28T11:58:52.616Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777377531/f6itg6ygshvt6ykgebhv.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-28T12:00:27.965Z"}
+{"level":"info","message":"Request body: {}","service":"Media-Service","timestamp":"2026-04-28T12:00:27.966Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T12:00:27.966Z"}
+{"level":"info","message":"Getting all media...","service":"Media-Service","timestamp":"2026-04-28T12:00:27.966Z"}
+{"level":"info","message":"Media retrieved successfully:","service":"Media-Service","timestamp":"2026-04-28T12:00:27.979Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T12:33:09.479Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T12:33:09.550Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T12:49:30.617Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T12:49:30.646Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:00:56.609Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:00:56.646Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:03:11.030Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:03:11.067Z"}
+{"level":"info","message":"Post service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:03:11.069Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:03:20.348Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:03:20.356Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:03:20.359Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:07:00.380Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:07:00.388Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:07:00.391Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:08:05.845Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:08:05.850Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:08:05.853Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:08:07.986Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:08:07.999Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T13:08:08.231Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:08:08.234Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:08:53.748Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:08:53.756Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T13:08:53.779Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:08:53.781Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:09:13.848Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:09:13.854Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T13:09:13.871Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:09:13.873Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:09:16.128Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:09:16.138Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T13:09:16.163Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:09:16.166Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T13:15:16.462Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T13:15:16.467Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T13:15:16.491Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T13:15:16.494Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T14:45:29.729Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T14:45:29.783Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T14:45:29.821Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T14:45:29.823Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T14:46:10.635Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T14:46:10.636Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T14:46:10.637Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T14:46:10.646Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 190224.png","service":"Media-Service","timestamp":"2026-04-28T14:46:10.647Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T14:46:10.647Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"zjzwcgacfdtowxwfgh04","service":"Media-Service","timestamp":"2026-04-28T14:46:13.582Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777387573/zjzwcgacfdtowxwfgh04.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"zjzwcgacfdtowxwfgh04","service":"Media-Service","timestamp":"2026-04-28T14:46:13.583Z"}
+{"__v":0,"_id":"69f0c83564a703e0a0e5a9e5","createdAt":"2026-04-28T14:46:13.590Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 190224.png","publicId":"zjzwcgacfdtowxwfgh04","service":"Media-Service","timestamp":"2026-04-28T14:46:13.602Z","updatedAt":"2026-04-28T14:46:13.590Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777387573/zjzwcgacfdtowxwfgh04.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-28T14:56:19.006Z"}
+{"level":"info","message":"Request body: {}","service":"Media-Service","timestamp":"2026-04-28T14:56:19.010Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T14:56:19.012Z"}
+{"level":"info","message":"Getting all media...","service":"Media-Service","timestamp":"2026-04-28T14:56:19.012Z"}
+{"level":"info","message":"Media retrieved successfully:","service":"Media-Service","timestamp":"2026-04-28T14:56:19.049Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:15:21.506Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:15:21.653Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:15:21.712Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:15:21.717Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:15:39.647Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:15:39.652Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:15:39.668Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:15:39.672Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:15:44.431Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:15:44.436Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:15:44.456Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:15:44.458Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:15:48.153Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:15:48.159Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:15:48.176Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:15:48.179Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:15:50.872Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:15:50.881Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:15:50.897Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:15:50.899Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:27:02.786Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:27:02.821Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:27:02.864Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:27:02.868Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:27:40.239Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:27:40.246Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:27:40.263Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:27:40.265Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:28:28.201Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:28:28.209Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:28:28.226Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:28:28.230Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:33:42.615Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:33:42.626Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:33:42.646Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:33:42.649Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:47:10.721Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:47:10.734Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:47:10.752Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:47:10.754Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T19:49:07.401Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T19:49:07.409Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T19:49:07.424Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T19:49:07.427Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-28T20:05:09.438Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-28T20:05:09.444Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T20:05:09.446Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-28T20:05:09.472Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 190224.png","service":"Media-Service","timestamp":"2026-04-28T20:05:09.473Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-28T20:05:09.474Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"voby95w2nimujbwl3yba","service":"Media-Service","timestamp":"2026-04-28T20:05:12.388Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777406711/voby95w2nimujbwl3yba.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"voby95w2nimujbwl3yba","service":"Media-Service","timestamp":"2026-04-28T20:05:12.390Z"}
+{"__v":0,"_id":"69f112f85705d37443db805b","createdAt":"2026-04-28T20:05:12.405Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 190224.png","publicId":"voby95w2nimujbwl3yba","service":"Media-Service","timestamp":"2026-04-28T20:05:12.420Z","updatedAt":"2026-04-28T20:05:12.405Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777406711/voby95w2nimujbwl3yba.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-28T20:06:28.161Z"}
+{"level":"info","message":"Request body: {}","service":"Media-Service","timestamp":"2026-04-28T20:06:28.161Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T20:06:28.161Z"}
+{"level":"info","message":"Getting all media...","service":"Media-Service","timestamp":"2026-04-28T20:06:28.162Z"}
+{"level":"info","message":"Media retrieved successfully:","service":"Media-Service","timestamp":"2026-04-28T20:06:28.175Z"}
+{"level":"info","message":"Cloudinary delete successful:","public_id":"voby95w2nimujbwl3yba","result":{"result":"ok"},"service":"Media-Service","timestamp":"2026-04-28T20:08:32.628Z"}
+{"level":"info","message":"Media 69f112f85705d37443db805b deleted from post 69f11333e71fc4259cbed1a9","service":"Media-Service","timestamp":"2026-04-28T20:08:32.643Z"}
+{"level":"info","message":"All media deleted from post 69f11333e71fc4259cbed1a9","service":"Media-Service","timestamp":"2026-04-28T20:08:32.643Z"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-28T20:09:45.154Z"}
+{"level":"info","message":"Request body: {}","service":"Media-Service","timestamp":"2026-04-28T20:09:45.156Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T20:09:45.157Z"}
+{"level":"info","message":"Getting all media...","service":"Media-Service","timestamp":"2026-04-28T20:09:45.158Z"}
+{"level":"info","message":"Media retrieved successfully:","service":"Media-Service","timestamp":"2026-04-28T20:09:45.163Z"}

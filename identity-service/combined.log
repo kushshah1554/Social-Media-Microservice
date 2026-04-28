@@ -326,3 +326,58 @@
 {"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-26T11:49:34.677Z"}
 {"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T11:49:34.678Z"}
 {"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T11:49:34.679Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-26T13:11:25.045Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T13:11:25.057Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T13:11:25.076Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-26T13:54:54.107Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T13:54:54.114Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T13:54:54.122Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-26T15:00:40.526Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T15:00:40.531Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T15:00:40.539Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-26T15:13:53.165Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T15:13:53.169Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T15:13:53.174Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-26T16:11:56.213Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-26T16:11:56.219Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-26T16:11:56.250Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-27T17:29:09.732Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-27T17:41:31.336Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-27T18:03:21.034Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-27T18:05:11.813Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:05:58.983Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:05:58.984Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T18:05:59.038Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:06:06.889Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:06:06.889Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T18:06:06.892Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:06:08.282Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:06:08.282Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T18:06:08.285Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:06:09.540Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:06:09.540Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T18:06:09.542Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:06:10.776Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:06:10.777Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T18:06:10.780Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:06:11.995Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:06:11.996Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T18:06:11.998Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:06:13.171Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:06:13.172Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T18:06:13.174Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:06:14.411Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:06:14.412Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T18:06:14.416Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T18:06:16.689Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T18:06:16.689Z"}
+{"level":"warn","message":"Sensitive rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2026-04-27T18:06:16.691Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-27T19:57:18.247Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-27T19:57:18.263Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-27T19:57:18.291Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-27T20:04:17.492Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-27T20:46:08.730Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-28T09:17:10.694Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-28T09:17:15.914Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-28T09:17:15.914Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-28T09:17:15.922Z"}

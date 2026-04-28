@@ -54,8 +54,8 @@ app.use((req, res, next) => {
 
 //Ip based rate limiting for sensitive endpoints
 const sensitiveRateLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minute 
-  max: 50, // limit each IP to 50 requests per windowMs
+  windowMs: 8 * 60 * 1000, // 8 minute 
+  max: 8, // limit each IP to 8 requests per windowMs
   standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
   legacyHeaders: false, // Disable the `X-RateLimit-*` headers
   handler: (req, res) => {
@@ -67,10 +67,10 @@ const sensitiveRateLimiter = rateLimit({
 
 
 //apply rate limiting to specific routes
-app.use("/api/auth/register", sensitiveRateLimiter);
+// app.use("/api/auth/register", sensitiveRateLimiter);
 
 //Routes
-app.use("/api/auth", authRoutes);
+app.use("/api/auth",sensitiveRateLimiter, authRoutes);
 //health check route
 app.get("/health", (req, res) => {
   res.status(200).json({ success: true, message: "Health check passed" });

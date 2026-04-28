@@ -52,7 +52,7 @@ const proxyOptions = {
   proxyReqPathResolver: (req) => {
     return req.originalUrl.replace(/^\/v1/, "/api");
   },
-  proxyErrorHandler: (err, req, res) => {
+  proxyErrorHandler: (err, res, next) => {
     logger.error("Proxy error:", err?.message || err);
     res.status(500).json({
       success: false,
@@ -85,7 +85,7 @@ app.use(
 app.use(
   "/v1/posts",
   validateToken,
-  proxy(process.env.POSTS_SERVICE_URL, { 
+  proxy(process.env.POSTS_SERVICE_URL, {
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
@@ -102,16 +102,41 @@ app.use(
   }),
 );
 
-//Error handling middleware
-app.use(errorHandler);
+//Setting up proxy for media service
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      console.log("Content type:", srcReq.headers["content-type"]);
+      const contentType = srcReq.headers["content-type"] || "";
 
+      if (!contentType.startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["content-type"] = "application/json";
+      }
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData) => {
+      logger.info(
+        `Response received from media service with status: ${proxyRes.statusCode}`,
+      );
+      logger.info(`Response data from media service: ${proxyResData}`);
+      return proxyResData; //return the response data as is to the client
+    },
+  }),
+);
+
+//Error handling middleware
+app.use(errorHandler); 
+ 
 app.listen(PORT, () => {
   logger.info(`API Gateway running on port ${PORT}`);
   logger.info(
     `Identity service running on port ${process.env.IDENTITY_SERVICE_URL}`,
   );
-  logger.info(
-    `Posts service running on port ${process.env.POSTS_SERVICE_URL}`,
-  );
+  logger.info(`Posts service running on port ${process.env.POSTS_SERVICE_URL}`);
+  logger.info(`Media service running on port ${process.env.MEDIA_SERVICE_URL}`);
   logger.info(`Redis URL ${process.env.REDIS_URL}`);
 });

@@ -7,6 +7,7 @@ const helmet = require("helmet");
 const cors = require("cors");
 const errorHandler = require("./middlewares/errorHandler");
 const redisClient = require("./confige/redisClient");
+const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 const app = express();
 const PORT = process.env.PORT || 3002;
@@ -19,7 +20,6 @@ mongoose
   .catch((error) => {
     logger.error("Error connecting to MongoDB", error);
   });
-
 
 //middleware
 app.use(helmet());
@@ -34,18 +34,32 @@ app.use((req, res, next) => {
 });
 
 //routes
-app.use("/api/posts",(req,res,next)=>{
+app.use(
+  "/api/posts",
+  (req, res, next) => {
     req.redisClient = redisClient;
     next();
-}, postRoutes);
+  },
+  postRoutes,
+);
 
 //error handling middleware
 app.use(errorHandler);
 
-//start server
-app.listen(PORT, () => {
-    logger.info(`Post service running on port ${PORT}`);
-});
+async function startServer() {
+  try {
+    await connectToRabbitMQ();
+    //start server
+    app.listen(PORT, () => {
+      logger.info(`Post service running on port ${PORT}`);
+    });
+  } catch (error) {
+    logger.error("Error starting server", error);
+    process.exit(1);
+  }
+}
+
+startServer(); 
 
 //unhandled promise rejections
 process.on("unhandledRejection", (reason, promise) => {
