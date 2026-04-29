@@ -322,3 +322,123 @@
 {"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-28T20:09:45.157Z"}
 {"level":"info","message":"Getting all media...","service":"Media-Service","timestamp":"2026-04-28T20:09:45.158Z"}
 {"level":"info","message":"Media retrieved successfully:","service":"Media-Service","timestamp":"2026-04-28T20:09:45.163Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-28T20:46:35.085Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-28T20:46:35.091Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-28T20:46:35.111Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-28T20:46:35.113Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-29T14:42:23.322Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-29T14:42:23.331Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-29T14:42:23.370Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-29T14:42:23.373Z"}
+{"level":"info","message":"GET request to /api/media/all","service":"Media-Service","timestamp":"2026-04-29T14:50:20.667Z"}
+{"level":"info","message":"Request body: {}","service":"Media-Service","timestamp":"2026-04-29T14:50:20.673Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T14:50:20.675Z"}
+{"level":"info","message":"Getting all media...","service":"Media-Service","timestamp":"2026-04-29T14:50:20.676Z"}
+{"level":"info","message":"Media retrieved successfully:","service":"Media-Service","timestamp":"2026-04-29T14:50:20.732Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T14:50:53.937Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T14:50:53.938Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T14:50:53.939Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T14:50:53.966Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 190224.png","service":"Media-Service","timestamp":"2026-04-29T14:50:53.966Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T14:50:53.967Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"vxi652sotasj4pkbmi3n","service":"Media-Service","timestamp":"2026-04-29T14:50:56.741Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777474255/vxi652sotasj4pkbmi3n.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"vxi652sotasj4pkbmi3n","service":"Media-Service","timestamp":"2026-04-29T14:50:56.744Z"}
+{"__v":0,"_id":"69f21ad0a47a749ff42b67f2","createdAt":"2026-04-29T14:50:56.760Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 190224.png","publicId":"vxi652sotasj4pkbmi3n","service":"Media-Service","timestamp":"2026-04-29T14:50:56.779Z","updatedAt":"2026-04-29T14:50:56.760Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777474255/vxi652sotasj4pkbmi3n.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Connected to MongoDB","service":"Media-Service","timestamp":"2026-04-29T15:54:32.378Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"Media-Service","timestamp":"2026-04-29T15:54:32.632Z"}
+{"level":"info","message":"Event consumed from RabbitMQ","routingKey":"post.deleted","service":"Media-Service","timestamp":"2026-04-29T15:54:32.771Z"}
+{"level":"info","message":"Media service running on port 3003","service":"Media-Service","timestamp":"2026-04-29T15:54:32.778Z"}
+{"level":"info","message":"Cloudinary delete successful:","public_id":"vxi652sotasj4pkbmi3n","result":{"result":"ok"},"service":"Media-Service","timestamp":"2026-04-29T16:00:38.378Z"}
+{"level":"info","message":"Media 69f21ad0a47a749ff42b67f2 deleted from post 69f21afec5319da65ca0ec42","service":"Media-Service","timestamp":"2026-04-29T16:00:38.397Z"}
+{"level":"info","message":"All media deleted from post 69f21afec5319da65ca0ec42","service":"Media-Service","timestamp":"2026-04-29T16:00:38.398Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T16:03:47.179Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T16:03:47.185Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T16:03:47.187Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T16:03:47.240Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (8).png","service":"Media-Service","timestamp":"2026-04-29T16:03:47.240Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T16:03:47.241Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"kfgvfkcwqvrxuocompxn","service":"Media-Service","timestamp":"2026-04-29T16:03:51.959Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777478631/kfgvfkcwqvrxuocompxn.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"kfgvfkcwqvrxuocompxn","service":"Media-Service","timestamp":"2026-04-29T16:03:51.960Z"}
+{"__v":0,"_id":"69f22be7f3a6a5cfd7f03c01","createdAt":"2026-04-29T16:03:51.983Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (8).png","publicId":"kfgvfkcwqvrxuocompxn","service":"Media-Service","timestamp":"2026-04-29T16:03:52.021Z","updatedAt":"2026-04-29T16:03:51.983Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777478631/kfgvfkcwqvrxuocompxn.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T16:13:06.205Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T16:13:06.212Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T16:13:06.216Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T16:13:06.229Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 183721.png","service":"Media-Service","timestamp":"2026-04-29T16:13:06.229Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T16:13:06.230Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"snmcbmha7ikobiaa7rng","service":"Media-Service","timestamp":"2026-04-29T16:13:09.253Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777479188/snmcbmha7ikobiaa7rng.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"snmcbmha7ikobiaa7rng","service":"Media-Service","timestamp":"2026-04-29T16:13:09.255Z"}
+{"__v":0,"_id":"69f22e15f3a6a5cfd7f03c02","createdAt":"2026-04-29T16:13:09.267Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 183721.png","publicId":"snmcbmha7ikobiaa7rng","service":"Media-Service","timestamp":"2026-04-29T16:13:09.285Z","updatedAt":"2026-04-29T16:13:09.267Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777479188/snmcbmha7ikobiaa7rng.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Cloudinary delete successful:","public_id":"snmcbmha7ikobiaa7rng","result":{"result":"ok"},"service":"Media-Service","timestamp":"2026-04-29T16:18:24.640Z"}
+{"level":"info","message":"Media 69f22e15f3a6a5cfd7f03c02 deleted from post 69f22e2cae1a981134dec336","service":"Media-Service","timestamp":"2026-04-29T16:18:24.649Z"}
+{"level":"info","message":"All media deleted from post 69f22e2cae1a981134dec336","service":"Media-Service","timestamp":"2026-04-29T16:18:24.650Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T16:25:44.936Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T16:25:44.942Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T16:25:44.944Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T16:25:44.961Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 183721.png","service":"Media-Service","timestamp":"2026-04-29T16:25:44.962Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T16:25:44.962Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"e4mtm7esqaf0g0uokdve","service":"Media-Service","timestamp":"2026-04-29T16:25:48.401Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777479947/e4mtm7esqaf0g0uokdve.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"e4mtm7esqaf0g0uokdve","service":"Media-Service","timestamp":"2026-04-29T16:25:48.402Z"}
+{"__v":0,"_id":"69f2310cf3a6a5cfd7f03c03","createdAt":"2026-04-29T16:25:48.411Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 183721.png","publicId":"e4mtm7esqaf0g0uokdve","service":"Media-Service","timestamp":"2026-04-29T16:25:48.441Z","updatedAt":"2026-04-29T16:25:48.411Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777479947/e4mtm7esqaf0g0uokdve.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Cloudinary delete successful:","public_id":"kfgvfkcwqvrxuocompxn","result":{"result":"ok"},"service":"Media-Service","timestamp":"2026-04-29T16:34:03.978Z"}
+{"level":"info","message":"Media 69f22be7f3a6a5cfd7f03c01 deleted from post 69f22c09ae1a981134dec335","service":"Media-Service","timestamp":"2026-04-29T16:34:03.994Z"}
+{"level":"info","message":"All media deleted from post 69f22c09ae1a981134dec335","service":"Media-Service","timestamp":"2026-04-29T16:34:03.995Z"}
+{"level":"info","message":"Cloudinary delete successful:","public_id":"e4mtm7esqaf0g0uokdve","result":{"result":"ok"},"service":"Media-Service","timestamp":"2026-04-29T16:34:16.038Z"}
+{"level":"info","message":"Media 69f2310cf3a6a5cfd7f03c03 deleted from post 69f23121ae1a981134dec337","service":"Media-Service","timestamp":"2026-04-29T16:34:16.041Z"}
+{"level":"info","message":"All media deleted from post 69f23121ae1a981134dec337","service":"Media-Service","timestamp":"2026-04-29T16:34:16.042Z"}
+{"level":"info","message":"All media deleted from post 69f2326aae1a981134dec338","service":"Media-Service","timestamp":"2026-04-29T16:34:24.297Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T16:35:30.224Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T16:35:30.227Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T16:35:30.227Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T16:35:30.238Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 183721.png","service":"Media-Service","timestamp":"2026-04-29T16:35:30.238Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T16:35:30.238Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"b702zodixb0mnr94ufaq","service":"Media-Service","timestamp":"2026-04-29T16:35:33.266Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777480532/b702zodixb0mnr94ufaq.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"b702zodixb0mnr94ufaq","service":"Media-Service","timestamp":"2026-04-29T16:35:33.267Z"}
+{"__v":0,"_id":"69f23355f3a6a5cfd7f03c04","createdAt":"2026-04-29T16:35:33.272Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot 2026-03-28 183721.png","publicId":"b702zodixb0mnr94ufaq","service":"Media-Service","timestamp":"2026-04-29T16:35:33.280Z","updatedAt":"2026-04-29T16:35:33.272Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777480532/b702zodixb0mnr94ufaq.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T16:42:12.078Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T16:42:12.090Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T16:42:12.093Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T16:42:12.128Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (10).png","service":"Media-Service","timestamp":"2026-04-29T16:42:12.129Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T16:42:12.130Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"ys2k5oodot6xhmwfytqz","service":"Media-Service","timestamp":"2026-04-29T16:42:16.186Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777480935/ys2k5oodot6xhmwfytqz.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"ys2k5oodot6xhmwfytqz","service":"Media-Service","timestamp":"2026-04-29T16:42:16.190Z"}
+{"__v":0,"_id":"69f234e8f3a6a5cfd7f03c05","createdAt":"2026-04-29T16:42:16.205Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (10).png","publicId":"ys2k5oodot6xhmwfytqz","service":"Media-Service","timestamp":"2026-04-29T16:42:16.241Z","updatedAt":"2026-04-29T16:42:16.205Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777480935/ys2k5oodot6xhmwfytqz.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Cloudinary delete successful:","public_id":"ys2k5oodot6xhmwfytqz","result":{"result":"ok"},"service":"Media-Service","timestamp":"2026-04-29T16:58:45.713Z"}
+{"level":"info","message":"Media 69f234e8f3a6a5cfd7f03c05 deleted from post 69f234f8ae1a981134dec33a","service":"Media-Service","timestamp":"2026-04-29T16:58:45.728Z"}
+{"level":"info","message":"All media deleted from post 69f234f8ae1a981134dec33a","service":"Media-Service","timestamp":"2026-04-29T16:58:45.728Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T16:59:05.279Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T16:59:05.279Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T16:59:05.280Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T16:59:05.292Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (10).png","service":"Media-Service","timestamp":"2026-04-29T16:59:05.293Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T16:59:05.293Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"rvro5vjnjga06ki5bfn3","service":"Media-Service","timestamp":"2026-04-29T16:59:09.263Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777481948/rvro5vjnjga06ki5bfn3.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"rvro5vjnjga06ki5bfn3","service":"Media-Service","timestamp":"2026-04-29T16:59:09.264Z"}
+{"__v":0,"_id":"69f238ddf3a6a5cfd7f03c06","createdAt":"2026-04-29T16:59:09.266Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (10).png","publicId":"rvro5vjnjga06ki5bfn3","service":"Media-Service","timestamp":"2026-04-29T16:59:09.270Z","updatedAt":"2026-04-29T16:59:09.266Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777481948/rvro5vjnjga06ki5bfn3.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T18:38:00.356Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T18:38:00.373Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T18:38:00.374Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T18:38:00.403Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (10).png","service":"Media-Service","timestamp":"2026-04-29T18:38:00.403Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T18:38:00.403Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"lyy9lj3uvyhpmfwmoqc2","service":"Media-Service","timestamp":"2026-04-29T18:38:04.485Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777487883/lyy9lj3uvyhpmfwmoqc2.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"lyy9lj3uvyhpmfwmoqc2","service":"Media-Service","timestamp":"2026-04-29T18:38:04.487Z"}
+{"__v":0,"_id":"69f2500cf3a6a5cfd7f03c07","createdAt":"2026-04-29T18:38:04.500Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (10).png","publicId":"lyy9lj3uvyhpmfwmoqc2","service":"Media-Service","timestamp":"2026-04-29T18:38:04.526Z","updatedAt":"2026-04-29T18:38:04.500Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777487883/lyy9lj3uvyhpmfwmoqc2.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Cloudinary delete successful:","public_id":"lyy9lj3uvyhpmfwmoqc2","result":{"result":"ok"},"service":"Media-Service","timestamp":"2026-04-29T18:59:51.939Z"}
+{"level":"info","message":"Media 69f2500cf3a6a5cfd7f03c07 deleted from post 69f25049ae1a981134dec33c","service":"Media-Service","timestamp":"2026-04-29T18:59:51.953Z"}
+{"level":"info","message":"All media deleted from post 69f25049ae1a981134dec33c","service":"Media-Service","timestamp":"2026-04-29T18:59:51.954Z"}
+{"level":"info","message":"POST request to /api/media/upload","service":"Media-Service","timestamp":"2026-04-29T19:01:37.831Z"}
+{"level":"info","message":"Request body: undefined","service":"Media-Service","timestamp":"2026-04-29T19:01:37.842Z"}
+{"level":"info","message":"Authenticating request","service":"Media-Service","timestamp":"2026-04-29T19:01:37.844Z"}
+{"level":"info","message":"Uploading media...","service":"Media-Service","timestamp":"2026-04-29T19:01:37.886Z"}
+{"level":"info","message":"File info:","mimetype":"image/png","originalname":"Screenshot (10).png","service":"Media-Service","timestamp":"2026-04-29T19:01:37.887Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"Media-Service","timestamp":"2026-04-29T19:01:37.887Z"}
+{"level":"info","message":"Cloudinary upload successful:","public_id":"v7lqjf9jackaezujjvqa","service":"Media-Service","timestamp":"2026-04-29T19:01:42.022Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777489301/v7lqjf9jackaezujjvqa.png"}
+{"level":"info","message":"Cloudinary upload result: public_id - ","public_id":"v7lqjf9jackaezujjvqa","service":"Media-Service","timestamp":"2026-04-29T19:01:42.026Z"}
+{"__v":0,"_id":"69f25596f3a6a5cfd7f03c08","createdAt":"2026-04-29T19:01:42.034Z","level":"info","message":"Media uploaded successfully:","mimetype":"image/png","originalname":"Screenshot (10).png","publicId":"v7lqjf9jackaezujjvqa","service":"Media-Service","timestamp":"2026-04-29T19:01:42.052Z","updatedAt":"2026-04-29T19:01:42.034Z","url":"https://res.cloudinary.com/dbrhdvwiv/image/upload/v1777489301/v7lqjf9jackaezujjvqa.png","userId":"69e77267c7aa2daba9f23cec"}
+{"level":"info","message":"Cloudinary delete successful:","public_id":"v7lqjf9jackaezujjvqa","result":{"result":"ok"},"service":"Media-Service","timestamp":"2026-04-29T19:02:33.219Z"}
+{"level":"info","message":"Media 69f25596f3a6a5cfd7f03c08 deleted from post 69f255a0ae1a981134dec33d","service":"Media-Service","timestamp":"2026-04-29T19:02:33.227Z"}
+{"level":"info","message":"All media deleted from post 69f255a0ae1a981134dec33d","service":"Media-Service","timestamp":"2026-04-29T19:02:33.227Z"}

@@ -37,6 +37,15 @@ const createPost = async (req, res) => {
       mediaIds: mediaIds || [],
       userId: req.user.userId,
     });
+
+    // Publish post.created event
+    await publishEvent("post.created", {
+      postId: newlyCreatedPost._id.toString(),
+      userId: newlyCreatedPost.userId.toString(),
+      content: newlyCreatedPost.content,
+      createdAt: newlyCreatedPost.createdAt,
+    });
+    logger.info("Event published to RabbitMQ", { routingKey: "post.created" });
     await invalidatePostCache(req, newlyCreatedPost._id.toString()); // Invalidate post cache
 
     logger.info({

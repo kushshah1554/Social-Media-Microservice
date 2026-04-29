@@ -381,3 +381,30 @@
 {"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-28T09:17:15.914Z"}
 {"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-28T09:17:15.914Z"}
 {"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-28T09:17:15.922Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-28T11:52:39.085Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-28T11:53:14.141Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-28T11:53:14.142Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-28T11:53:14.150Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-28T14:41:47.102Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-28T14:41:47.127Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-28T14:41:47.158Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-28T20:04:14.607Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-28T20:04:14.619Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-28T20:04:14.639Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-28T20:46:35.095Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2026-04-29T14:42:03.951Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-29T14:44:29.580Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-29T14:44:29.587Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-29T14:44:29.614Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-29T15:57:52.958Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-29T15:57:52.986Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-29T15:57:53.034Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-29T16:58:25.733Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-29T16:58:25.744Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-29T16:58:25.760Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-29T18:37:34.458Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-29T18:37:34.478Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-29T18:37:34.514Z"}
+{"level":"info","message":"POST request to /api/auth/login","service":"identity-service","timestamp":"2026-04-29T19:19:24.554Z"}
+{"level":"info","message":"Request body: {\"email\":\"ramshah56@gmail.com\",\"password\":\"qwerty56\"}","service":"identity-service","timestamp":"2026-04-29T19:19:24.562Z"}
+{"level":"info","message":"Login endpoint hit ----->>>>","service":"identity-service","timestamp":"2026-04-29T19:19:24.576Z"}

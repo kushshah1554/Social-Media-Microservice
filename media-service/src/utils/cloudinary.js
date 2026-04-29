@@ -29,7 +29,7 @@ const uploadMediaToCloudinary = (file) => {
 
     // Pipe the file buffer to the upload stream
     uploadStream.end(file.buffer);
-  });
+  }); 
 };
 
 const deleteMediaFromCloudinary = async (publicId) => {
