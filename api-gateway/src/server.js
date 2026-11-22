@@ -69,6 +69,10 @@ app.use(
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json"; //set content type to json for identity service
+      // pass the real client IP so identity-service can rate-limit per client.
+      // Overwrite (not append) so a client can't spoof it: the gateway is the edge, srcReq.ip is the socket address.
+      // shortcut: if the gateway is ever put behind a load balancer, set "trust proxy" here too or every client shares the LB's IP.
+      proxyReqOpts.headers["x-forwarded-for"] = srcReq.ip;
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData) => {

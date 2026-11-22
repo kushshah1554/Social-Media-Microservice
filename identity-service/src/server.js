@@ -12,6 +12,10 @@ const authRoutes = require("./routes/identityService");
 const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
+// Trust one proxy hop (the gateway): req.ip becomes the client IP from X-Forwarded-For
+// instead of the gateway's IP, so rate limits apply per client.
+// Only safe while this service is reachable only through the gateway (true in docker-compose: no published port).
+app.set("trust proxy", 1);
 const PORT = process.env.PORT || 3001;
 
 // calling connectDB function
