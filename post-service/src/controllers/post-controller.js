@@ -7,7 +7,7 @@ async function invalidatePostCache(req, inputId) {
   logger.info("Invalidating post cache");
 
   if (inputId) {
-    const key = `posts:${inputId}`;
+    const key = `post:${inputId}`; // must match the key getPost caches under
     await req.redisClient.del(key);
     logger.info("Invalidated post cache");
   }

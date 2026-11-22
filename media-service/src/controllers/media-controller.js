@@ -54,7 +54,7 @@ const uploadMedia = async (req, res) => {
 const getAllMedia = async (req, res) => {
   try {
     logger.info("Getting all media...");
-    const medias = await Media.find().lean();
+    const medias = await Media.find({ userId: req.user.userId }).lean();
     logger.info("Media retrieved successfully:", medias.length);
     return res.status(200).json({
       success: true,

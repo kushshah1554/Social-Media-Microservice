@@ -5,15 +5,21 @@ const logger = require("../utils/logger");
 
 const handlePostDeleted = async (event) => {
     console.log("Post deleted", event); 
-    const { postId, mediaIds } = event;
+    const { postId, userId, mediaIds } = event;
     try {
-    const mediaToDelete = await Media.find({ _id: { $in: mediaIds } });
+    // only the post owner's media: mediaIds come from user input at post creation
+    const mediaToDelete = await Media.find({ _id: { $in: mediaIds }, userId });
     for (const media of mediaToDelete) {
-        await deleteMediaFromCloudinary(media.publicId);
-        await media.deleteOne();
-        logger.info(`Media ${media._id} deleted from post ${postId}`);
+        try {
+            await deleteMediaFromCloudinary(media.publicId);
+            await media.deleteOne();
+            logger.info(`Media ${media._id} deleted from post ${postId}`);
+        } catch (error) {
+            // keep going so one failed file doesn't block the rest
+            logger.error(`Error deleting media ${media._id} from post ${postId}`, { error });
+        }
     }
-    logger.info(`All media deleted from post ${postId}`);
+    logger.info(`Finished deleting media for post ${postId}`);
     } catch (error) {
         logger.error("Error deleting media", { error });
     }
