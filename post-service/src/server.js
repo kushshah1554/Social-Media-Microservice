@@ -8,6 +8,7 @@ const cors = require("cors");
 const errorHandler = require("./middlewares/errorHandler");
 const redisClient = require("./confige/redisClient");
 const { connectToRabbitMQ } = require("./utils/rabbitmq");
+const { startOutboxWorker } = require("./utils/outbox");
 
 const app = express();
 const PORT = process.env.PORT || 3002;
@@ -49,6 +50,7 @@ app.use(errorHandler);
 async function startServer() {
   try {
     await connectToRabbitMQ();
+    startOutboxWorker();
     //start server
     app.listen(PORT, () => {
       logger.info(`Post service running on port ${PORT}`);

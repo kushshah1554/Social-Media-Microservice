@@ -25,13 +25,18 @@ async function consumeEvent(routingKey,callback)
    if (!channel) {
     await connectToRabbitMQ();
   }
-  const { queue } = await channel.assertQueue("", { exclusive: true });
+  // named durable queue: events wait here while this service is down
+  const { queue } = await channel.assertQueue(`search-service.${routingKey}`, { durable: true });
   await channel.bindQueue(queue, EXCHANGE_NAME, routingKey);
-  channel.consume(queue, (msg) => {
-    if (msg) {
-      callback(JSON.parse(msg.content.toString()));
-      channel.ack(msg);
+  channel.consume(queue, async (msg) => {
+    if (!msg) return;
+    try {
+      await callback(JSON.parse(msg.content.toString()));
+    } catch (error) {
+      logger.error("Error handling event", { routingKey, error: error.message });
     }
+    // ack only after handling, so a crash mid-handler redelivers the event
+    channel.ack(msg);
   });
   logger.info("Event consumed from RabbitMQ", { routingKey });
 }

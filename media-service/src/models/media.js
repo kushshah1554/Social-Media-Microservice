@@ -22,6 +22,11 @@ const mediaSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    // set when a post.created event claims this file; null = not attached yet
+    postId: {
+      type: String,
+      default: null,
+    },
     createdAt: {
       type: Date,
       default: Date.now,

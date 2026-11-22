@@ -7,7 +7,11 @@ const logger = require("./utils/logger");
 const mediaRoutes = require("./routes/media-routes");
 const errorHandler = require("./middlewares/errorHandler");
 const { connectToRabbitMQ, consumeEvent } = require("./utils/rabbitmq");
-const { handlePostDeleted } = require("./eventHandlers/media-event-handlers");
+const {
+  handlePostCreated,
+  handlePostDeleted,
+  cleanupOrphanMedia,
+} = require("./eventHandlers/media-event-handlers");
 
 const app = express();
 const PORT = process.env.PORT || 3003;
@@ -44,7 +48,11 @@ async function startServer() {
     await connectToRabbitMQ();
     //consume events
 
+    await consumeEvent("post.created", handlePostCreated);
     await consumeEvent("post.deleted", handlePostDeleted);
+
+    // delete uploads that never got attached to a post
+    setInterval(cleanupOrphanMedia, 30 * 60 * 1000);
 
     //start server
     app.listen(PORT, () => {

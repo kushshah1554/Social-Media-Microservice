@@ -29,9 +29,11 @@ services:
     depends_on:
       - redis
       - rabbitmq
+      - media-service
     environment:
       - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://rabbitmq:5672
+      - MEDIA_SERVICE_URL=http://media-service:3003
 
   media-service:
     build: ./media-service

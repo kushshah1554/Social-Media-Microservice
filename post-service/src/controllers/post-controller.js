@@ -1,6 +1,7 @@
 const Post = require("../models/post");
 const logger = require("../utils/logger");
-const { publishEvent } = require("../utils/rabbitmq");
+const { addOutboxEvent } = require("../utils/outbox");
+const { uploadToMediaService } = require("../utils/mediaClient");
 const { validateCreatePost } = require("../utils/validation");
 
 async function invalidatePostCache(req, inputId) {
@@ -30,31 +31,47 @@ const createPost = async (req, res) => {
         .json({ success: false, message: error.details[0].message });
     }
 
-    const { content, mediaIds } = req.body;
+    const { content } = req.body;
+
+    // Upload attached files to media-service; mediaIds never come from the client
+    let mediaIds;
+    try {
+      mediaIds = await Promise.all(
+        (req.files || []).map((file) => uploadToMediaService(file, req.user.userId)),
+      );
+    } catch (error) {
+      // files that did upload are removed later by media-service's orphan cleanup
+      logger.error("Error uploading media for post", { error: error.message });
+      const status = error.status === 429 ? 429 : 502;
+      return res.status(status).json({ success: false, message: "Error uploading media" });
+    }
+
     // Create post in database
     const newlyCreatedPost = await Post.create({
       content,
-      mediaIds: mediaIds || [],
+      mediaIds,
       userId: req.user.userId,
     });
 
-    // Publish post.created event
-    await publishEvent("post.created", {
+    // Queue post.created; media-service uses mediaIds to mark the files as attached
+    await addOutboxEvent("post.created", {
       postId: newlyCreatedPost._id.toString(),
       userId: newlyCreatedPost.userId.toString(),
       content: newlyCreatedPost.content,
+      mediaIds,
       createdAt: newlyCreatedPost.createdAt,
     });
-    logger.info("Event published to RabbitMQ", { routingKey: "post.created" });
     await invalidatePostCache(req, newlyCreatedPost._id.toString()); // Invalidate post cache
 
     logger.info({
       message: "Post created successfully",
       post: newlyCreatedPost.toObject(),
     });
-    res
-      .status(201)
-      .json({ success: true, message: "Post created successfully" });
+    res.status(201).json({
+      success: true,
+      message: "Post created successfully",
+      data: { postId: newlyCreatedPost._id, mediaIds },
+    });
   } catch (error) {
     logger.error("Error creating post", error);
     res.status(500).json({ success: false, message: "Error creating post" });
@@ -166,8 +183,8 @@ const deletePost = async (req, res) => {
         .json({ success: false, message: "Post not found" });
     }
 
-    // Publish event to RabbitMQ
-    await publishEvent("post.deleted", {
+    // Queue post.deleted
+    await addOutboxEvent("post.deleted", {
       postId: post._id.toString(),
       userId: req.user.userId,
       mediaIds: post.mediaIds,

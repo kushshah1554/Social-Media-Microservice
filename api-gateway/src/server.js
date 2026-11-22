@@ -88,8 +88,12 @@ app.use(
   proxy(process.env.POSTS_SERVICE_URL, {
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
-      proxyReqOpts.headers["Content-Type"] = "application/json";
       proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      // keep multipart as-is so create-post can carry files
+      const contentType = srcReq.headers["content-type"] || "";
+      if (!contentType.startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["content-type"] = "application/json";
+      }
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData) => {
