@@ -20,11 +20,15 @@ async function connectToRabbitMQ() {
     // confirm channel: the broker tells us when it has accepted each message
     channel = await connection.createConfirmChannel();
 
-    await channel.assertExchange(EXCHANGE_NAME, "topic", { durable: false });
+    // durable: survives a broker restart (with the volume in docker-compose)
+    await channel.assertExchange(EXCHANGE_NAME, "topic", { durable: true });
     logger.info("Connected to RabbitMQ");
     return channel;
   } catch (error) {
     logger.error("Error connecting to RabbitMQ", error);
+    // don't leak a half-open connection; the next publish retries
+    connection?.close().catch(() => {});
+    channel = null;
   }
 }
 

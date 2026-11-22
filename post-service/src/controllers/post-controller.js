@@ -1,6 +1,7 @@
+const mongoose = require("mongoose");
 const Post = require("../models/post");
 const logger = require("../utils/logger");
-const { addOutboxEvent } = require("../utils/outbox");
+const { flushOutbox } = require("../utils/outbox");
 const { uploadToMediaService } = require("../utils/mediaClient");
 const { validateCreatePost } = require("../utils/validation");
 
@@ -46,21 +47,30 @@ const createPost = async (req, res) => {
       return res.status(status).json({ success: false, message: "Error uploading media" });
     }
 
-    // Create post in database
+    // Save the post and its post.created event in one write (outbox);
+    // media-service uses mediaIds from the event to mark the files as attached
+    const postId = new mongoose.Types.ObjectId();
+    const createdAt = new Date();
     const newlyCreatedPost = await Post.create({
+      _id: postId,
       content,
       mediaIds,
       userId: req.user.userId,
+      createdAt,
+      pendingEvents: [
+        {
+          routingKey: "post.created",
+          payload: {
+            postId: postId.toString(),
+            userId: req.user.userId,
+            content,
+            mediaIds,
+            createdAt,
+          },
+        },
+      ],
     });
-
-    // Queue post.created; media-service uses mediaIds to mark the files as attached
-    await addOutboxEvent("post.created", {
-      postId: newlyCreatedPost._id.toString(),
-      userId: newlyCreatedPost.userId.toString(),
-      content: newlyCreatedPost.content,
-      mediaIds,
-      createdAt: newlyCreatedPost.createdAt,
-    });
+    flushOutbox(); // publish now instead of waiting for the next retry tick
     await invalidatePostCache(req, newlyCreatedPost._id.toString()); // Invalidate post cache
 
     logger.info({
@@ -99,13 +109,13 @@ const getAllPosts = async (req, res) => {
     }
 
     // Get posts from database
-    const posts = await Post.find()
+    const posts = await Post.find({ deletedAt: null })
       .sort({ createdAt: -1 })
       .skip(skip)
       .limit(limit)
       .lean();
     // Get total number of posts
-    const totalNoOfPosts = await Post.countDocuments();
+    const totalNoOfPosts = await Post.countDocuments({ deletedAt: null });
     // Cache the result
     const cacheData = {
       posts,
@@ -145,7 +155,7 @@ const getPost = async (req, res) => {
     }
 
     // Get post from database
-    const post = await Post.findById(id).lean();
+    const post = await Post.findOne({ _id: id, deletedAt: null }).lean();
     // If post is not found, return error
     if (!post) {
       logger.error("Post not found");
@@ -171,10 +181,8 @@ const deletePost = async (req, res) => {
 
     // Delete post from database
     logger.info("Deleting post from database");
-    const post = await Post.findOneAndDelete({
-      _id: id,
-      userId: req.user.userId,
-    });
+    const filter = { _id: id, userId: req.user.userId, deletedAt: null };
+    const post = await Post.findOne(filter).lean();
     // If post is not found, return error
     if (!post) {
       logger.error("Post not found");
@@ -183,12 +191,22 @@ const deletePost = async (req, res) => {
         .json({ success: false, message: "Post not found" });
     }
 
-    // Queue post.deleted
-    await addOutboxEvent("post.deleted", {
-      postId: post._id.toString(),
-      userId: req.user.userId,
-      mediaIds: post.mediaIds,
+    // Soft-delete and queue post.deleted in one write (outbox); the worker removes the row after publishing.
+    // mediaIds never change after creation, so reading them first is safe.
+    const updated = await Post.updateOne(filter, {
+      $set: { deletedAt: new Date() },
+      $push: {
+        pendingEvents: {
+          routingKey: "post.deleted",
+          payload: { postId: id, userId: req.user.userId, mediaIds: post.mediaIds },
+        },
+      },
     });
+    if (updated.modifiedCount === 0) {
+      // deleted by a concurrent request
+      return res.status(404).json({ success: false, message: "Post not found" });
+    }
+    flushOutbox();
 
     // Invalidate cache
     await invalidatePostCache(req, id);

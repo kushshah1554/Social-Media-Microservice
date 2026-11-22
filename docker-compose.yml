@@ -62,6 +62,9 @@ services:
 
   rabbitmq:
     image: rabbitmq:3-management
+    hostname: rabbitmq # RabbitMQ stores data per hostname; keep it fixed so the volume is reused
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
     ports:
       - "5672:5672"
       - "15672:15672"
@@ -70,3 +73,6 @@ services:
       interval: 30s
       timeout: 10s
       retries: 5
+
+volumes:
+  rabbitmq_data:

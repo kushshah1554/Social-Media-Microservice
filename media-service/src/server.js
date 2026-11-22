@@ -52,6 +52,7 @@ async function startServer() {
     await consumeEvent("post.deleted", handlePostDeleted);
 
     // delete uploads that never got attached to a post
+    cleanupOrphanMedia();
     setInterval(cleanupOrphanMedia, 30 * 60 * 1000);
 
     //start server

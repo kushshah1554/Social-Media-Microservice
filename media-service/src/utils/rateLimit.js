@@ -5,7 +5,8 @@ const { ipKeyGenerator } = require("express-rate-limit");
 
 const redisClient = require("../confige/redisClient");
 
-//IP based Rate limiting for sensitive endpoints
+// Per-user rate limiting: behind the gateway every request has the same IP,
+// so the user id (set by authenticateRequest) is the only useful key
 const createLimiter = (max, prefix) => {
   return rateLimit({
     windowMs: 15 * 60 * 1000,
@@ -13,10 +14,11 @@ const createLimiter = (max, prefix) => {
     standardHeaders: true,
     legacyHeaders: false,
 
-    keyGenerator: (req) => `${ipKeyGenerator(req)}-${prefix}`,
+    keyGenerator: (req) =>
+      `${req.user?.userId || ipKeyGenerator(req.ip)}-${prefix}`,
 
     handler: (req, res) => {
-      logger.warn(`Sensitive rate limit exceeded for IP: ${req.ip}`);
+      logger.warn(`Rate limit exceeded`, { userId: req.user?.userId, ip: req.ip, prefix });
       res.status(429).json({ success: false, message: "Too many requests" });
     },
 

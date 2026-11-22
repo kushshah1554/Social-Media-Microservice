@@ -1,22 +1,38 @@
-const Outbox = require("../models/outbox");
+const Post = require("../models/post");
 const { publishEvent } = require("./rabbitmq");
 const logger = require("./logger");
+
+// Outbox: each event is stored in post.pendingEvents in the same write as the post change
+// (one document = atomic, no transaction needed). This worker publishes them and removes them.
 
 const RETRY_INTERVAL_MS = 10 * 1000;
 let flushing = false;
 
-// Publishes saved events oldest first and stops at the first failure, so events keep their order.
+// Publishes each post's events in order; stops at the first failure and retries later.
 // shortcut: the `flushing` flag only guards one process; use a DB lock before running several post-service instances.
 async function flushOutbox() {
   if (flushing) return;
   flushing = true;
   try {
     for (;;) {
-      const events = await Outbox.find().sort({ _id: 1 }).limit(50).lean();
-      if (events.length === 0) break;
-      for (const event of events) {
-        await publishEvent(event.routingKey, event.payload);
-        await Outbox.deleteOne({ _id: event._id });
+      const posts = await Post.find({
+        $or: [{ "pendingEvents.0": { $exists: true } }, { deletedAt: { $ne: null } }],
+      })
+        .select("+pendingEvents")
+        .limit(50)
+        .lean();
+      if (posts.length === 0) break;
+
+      for (const post of posts) {
+        for (const event of post.pendingEvents || []) {
+          await publishEvent(event.routingKey, event.payload);
+          await Post.updateOne(
+            { _id: post._id },
+            { $pull: { pendingEvents: { _id: event._id } } },
+          );
+        }
+        // soft-deleted post: remove the row now that post.deleted is out
+        if (post.deletedAt) await Post.deleteOne({ _id: post._id });
       }
     }
   } catch (error) {
@@ -26,17 +42,9 @@ async function flushOutbox() {
   }
 }
 
-// Saves the event first, so it is retried if RabbitMQ is down.
-// shortcut: the post write and this write are not in one transaction (standalone MongoDB has none);
-// a crash between them loses the event. Use a replica set + session.withTransaction to close that gap.
-async function addOutboxEvent(routingKey, payload) {
-  await Outbox.create({ routingKey, payload });
-  flushOutbox();
-}
-
 function startOutboxWorker() {
   flushOutbox();
   setInterval(flushOutbox, RETRY_INTERVAL_MS);
 }
 
-module.exports = { addOutboxEvent, startOutboxWorker };
+module.exports = { flushOutbox, startOutboxWorker };
